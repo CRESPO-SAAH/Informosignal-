@@ -1,0 +1,436 @@
+[
+  {
+    "fichier": "03_FMI_BM_Senelec/FMI_FAS/FMI_FAS_Senegal_mobile_money.csv",
+    "variables": [
+      "mm_cpt_ouv",
+      "mm_cpt_act",
+      "mm_agents_act",
+      "mm_tot_val"
+    ],
+    "source": "FMI, Financial Access Survey (FAS), dataflow IMF.STA:FAS version 5.0.0",
+    "titre": "Financial Access Survey (FAS), Senegal, mobile money indicators",
+    "url_fichier": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,FAS/SEN.*.*.A?startPeriod=2017",
+    "url_page": "https://data.imf.org/en/datasets/IMF.STA:FAS",
+    "periode_couverte": "2017 a 2025 (annuel)",
+    "description": "CSV propre des series mobile money du FAS pour le Senegal (indicateur, code, annee, valeur, unite), extrait de la reponse brute de l'API SDMX du FMI.",
+    "remarques": "Codes: FA67.NUM comptes mobile money enregistres (mm_cpt_ouv); FA63.NUM comptes actifs (mm_cpt_act); FA57.NUM points de service d'agents enregistres et FA5.NUM agents actifs (mm_agents_act); FA65.XDC valeur des transactions en FCFA, FA65.POGDP en % du PIB, FA66.NUM nombre de transactions, FA1 transactions par compte actif (mm_tot_val); FA64 encours (complement); variantes FA67N, FA63N, FA66N pour 1 000 adultes et FA5N, FA57N pour 100 000 adultes ou 1 000 km2. Valeurs en unites pleines (la colonne SCALE=6 de l'API sert a l'affichage en millions). Donnees declarees via la BCEAO (ensemble des emetteurs de monnaie electronique, pas seulement Orange Money). Ruptures visibles: forte hausse en 2021 (arrivee de Wave), baisse des agents actifs en 2023. Requete CSV avec l'en-tete Accept: application/vnd.sdmx.data+csv;version=1.0.0. Verification humaine: portail data.imf.org, jeu FAS, pays Senegal."
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/FMI_FAS/FMI_FAS_Senegal_brut_toutes_series.csv",
+    "variables": [
+      "mm_cpt_ouv",
+      "mm_cpt_act",
+      "mm_agents_act",
+      "mm_tot_val"
+    ],
+    "source": "FMI, Financial Access Survey (FAS)",
+    "titre": "Financial Access Survey (FAS), Senegal, all annual series (raw SDMX CSV)",
+    "url_fichier": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,FAS/SEN.*.*.A?startPeriod=2017",
+    "url_page": "https://data.imf.org/en/datasets/IMF.STA:FAS",
+    "periode_couverte": "2017 a 2025 (annuel)",
+    "description": "Reponse brute de l'API SDMX 2.1 du FMI (format SDMX CSV) contenant toutes les series FAS annuelles du Senegal depuis 2017, avec metadonnees.",
+    "remarques": "Obtenu par curl avec l'en-tete Accept: application/vnd.sdmx.data+csv;version=1.0.0 sur l'URL d'API indiquee. Colonnes utiles: INDICATOR, TYPE_OF_TRANSFORMATION, TIME_PERIOD, OBS_VALUE, SERIES_NAME. L'ancienne API dataservices.imf.org n'a pas ete utilisee."
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/FMI_FAS/FMI_FAS_Senegal_mobile_money_brut.xml",
+    "variables": [
+      "mm_cpt_ouv",
+      "mm_cpt_act",
+      "mm_agents_act",
+      "mm_tot_val"
+    ],
+    "source": "FMI, Financial Access Survey (FAS)",
+    "titre": "Financial Access Survey (FAS), Senegal, mobile money series (raw SDMX XML)",
+    "url_fichier": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,FAS/SEN.FA1+FA5+FA57+FA5N+FA57N+FA63+FA63N+FA64+FA65+FA66+FA66N+FA67+FA67N.*.A?startPeriod=2017",
+    "url_page": "https://data.imf.org/en/datasets/IMF.STA:FAS",
+    "periode_couverte": "2017 a 2025 (annuel)",
+    "description": "Reponse brute SDMX XML (structure specific) de l'API du FMI limitee aux 13 indicateurs mobile money du Senegal.",
+    "remarques": "Le serveur renvoie du XML SDMX meme avec un en-tete Accept JSON; fichier conserve tel quel comme trace brute."
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/BM_Findex/BM_Findex_Senegal_indicateurs_selectionnes.csv",
+    "variables": [
+      "findex_vente",
+      "findex_march",
+      "bonus mobile money (account.mm)"
+    ],
+    "source": "Banque mondiale, Global Findex Database 2025 (source 28 de l'API World Bank, mise a jour du 2025-10-06)",
+    "titre": "Global Findex Database, Senegal, selected indicators",
+    "url_fichier": "https://api.worldbank.org/v2/sources/28/country/SEN/series/all/time/all?format=json&per_page=20000",
+    "url_page": "https://databank.worldbank.org/source/global-financial-inclusion",
+    "periode_couverte": "Vagues 2014, 2017, 2021 et 2024 (la vague 2024 correspond a l'edition Global Findex 2025)",
+    "description": "Extrait Senegal des indicateurs Findex pertinents (paiements agricoles, salaires, paiements marchands numeriques, compte mobile money), en % des adultes de 15 ans et plus.",
+    "remarques": "findex_vente: fin42 (a recu des paiements pour la vente de produits agricoles, de betail ou de recoltes; 2017=19.3, 2021=16.5, 2024=18.8), fin42.acc, fin43a, fin43b (via telephone mobile), fin43c (especes seulement), fin43d; proxys salaires fin32, fin32.acc, fin32.n33, fin34b, fin32.n33.34b, fin34c; g20.received en contexte. findex_march: merchant.pay (a effectue un paiement marchand numerique; 2021=11.6, 2024=37.0), fin25e2 (paiement en magasin par telephone ou carte), fin26b, fin27a (paiement marchand en ligne); g20.made en contexte. Bonus: mobileaccount.t.d (compte mobile money; 2017=31.8, 2021=44.9, 2024=66.9), fin17b, fin31b, account.t.d, fiaccount.t.d. Base complete tous pays non telechargee (volume), disponible sur https://www.worldbank.org/en/publication/globalfindex/download-data"
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/BM_Findex/BM_Findex_Senegal_toutes_series.csv",
+    "variables": [
+      "findex_vente",
+      "findex_march",
+      "bonus mobile money (account.mm)"
+    ],
+    "source": "Banque mondiale, Global Findex Database (source 28)",
+    "titre": "Global Findex Database, Senegal, all series (non missing values)",
+    "url_fichier": "https://api.worldbank.org/v2/sources/28/country/SEN/series/all/time/all?format=json&per_page=20000",
+    "url_page": "https://databank.worldbank.org/source/global-financial-inclusion",
+    "periode_couverte": "2011, 2014, 2017, 2021, 2024",
+    "description": "Toutes les series Findex non vides du Senegal (3 194 observations) en format long (code, indicateur, annee, valeur), y compris les ventilations par sous population.",
+    "remarques": "Les suffixes .1, .2, .7, .8 etc. designent des sous populations (femmes, hommes, 40% les plus pauvres, 60% les plus riches, etc.). Le suffixe .s indique un denominateur different du total des adultes."
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/BM_Findex/BM_Findex_Senegal_API_brut.json",
+    "variables": [
+      "findex_vente",
+      "findex_march",
+      "bonus mobile money (account.mm)"
+    ],
+    "source": "Banque mondiale, API v2 (source 28 Global Findex)",
+    "titre": "Global Findex database, Senegal, raw API response",
+    "url_fichier": "https://api.worldbank.org/v2/sources/28/country/SEN/series/all/time/all?format=json&per_page=20000",
+    "url_page": "https://databank.worldbank.org/source/global-financial-inclusion",
+    "periode_couverte": "2011 a 2024 (vagues), annees sans enquete incluses avec valeurs nulles",
+    "description": "Reponse JSON brute de l'API World Bank pour toutes les series Findex du Senegal (19 878 enregistrements, dont beaucoup de valeurs nulles).",
+    "remarques": "Liste complete des codes d'indicateurs: https://api.worldbank.org/v2/sources/28/indicators?format=json&per_page=2000 (3 313 indicateurs)."
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/Senelec/Senelec_rapport_annuel_2019.pdf",
+    "variables": [
+      "elec_bt"
+    ],
+    "source": "Senelec (Societe nationale d'electricite du Senegal)",
+    "titre": "Rapport annuel Senelec 2019",
+    "url_fichier": "https://www.senelec.sn/media/rapports/pdf/ras2019.pdf",
+    "url_page": "https://www.senelec.sn/rapports/",
+    "periode_couverte": "2017 a 2019",
+    "description": "Rapport annuel 2019 de Senelec; la section activites commerciales donne l'energie facturee par niveau de tension, dont la basse tension (BT) en GWh.",
+    "remarques": "Page 18 (chiffres cles 2017, 2018, 2019): ventes BT 2 039,01 GWh (2017), 2 095,61 GWh (2018), 2 270,12 GWh (2019); pages 38 et 39 (activites commerciales) donnent 2 092,24 GWh pour 2018. La commande file indique 0 page mais le PDF s'ouvre normalement (60 pages)."
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/Senelec/Senelec_rapport_annuel_2020.pdf",
+    "variables": [
+      "elec_bt"
+    ],
+    "source": "Senelec (Societe nationale d'electricite du Senegal)",
+    "titre": "Rapport annuel Senelec 2020",
+    "url_fichier": "https://www.senelec.sn/media/rapports/pdf/rapport-annuel-senelec-2020-ok1693835980.pdf",
+    "url_page": "https://www.senelec.sn/rapports/",
+    "periode_couverte": "2018 a 2020",
+    "description": "Rapport annuel 2020 de Senelec; la section activites commerciales donne l'energie facturee par niveau de tension, dont la basse tension (BT) en GWh.",
+    "remarques": "Page 14 (chiffres cles): BT 2020 = 2 504,51 GWh; pages 34 et 35 (ventes): BT 2020 = 2 531,45 GWh, valeur reprise dans le rapport 2021. Ecart a signaler."
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/Senelec/Senelec_rapport_annuel_2021.pdf",
+    "variables": [
+      "elec_bt"
+    ],
+    "source": "Senelec (Societe nationale d'electricite du Senegal)",
+    "titre": "Rapport annuel Senelec 2021",
+    "url_fichier": "https://www.senelec.sn/media/rapports/pdf/ras2021.pdf",
+    "url_page": "https://www.senelec.sn/rapports/",
+    "periode_couverte": "2020 a 2021",
+    "description": "Rapport annuel 2021 de Senelec; la section activites commerciales donne l'energie facturee par niveau de tension, dont la basse tension (BT) en GWh.",
+    "remarques": "Pages 34 et 35: ventes BT 2 645,47 GWh en 2021 contre 2 531,45 GWh en 2020."
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/Senelec/Senelec_rapport_annuel_2022.pdf",
+    "variables": [
+      "elec_bt"
+    ],
+    "source": "Senelec (Societe nationale d'electricite du Senegal)",
+    "titre": "Rapport annuel Senelec 2022",
+    "url_fichier": "https://www.senelec.sn/media/rapports/pdf/rapport-annuel-senelec-2022-compressed1693835195.pdf",
+    "url_page": "https://www.senelec.sn/rapports/",
+    "periode_couverte": "2021 a 2022",
+    "description": "Rapport annuel 2022 de Senelec; la section activites commerciales donne l'energie facturee par niveau de tension, dont la basse tension (BT) en GWh.",
+    "remarques": "Pages 14, 38 et 39: ventes BT 2 946,32 GWh en 2022."
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/Senelec/Senelec_rapport_annuel_2023.pdf",
+    "variables": [
+      "elec_bt"
+    ],
+    "source": "Senelec (Societe nationale d'electricite du Senegal)",
+    "titre": "Rapport annuel Senelec 2023",
+    "url_fichier": "https://www.senelec.sn/media/rapports/pdf/rapport-annuel-senelec-2023-vf-ok1745314522.pdf",
+    "url_page": "https://www.senelec.sn/rapports/",
+    "periode_couverte": "2021 a 2023",
+    "description": "Rapport annuel 2023 de Senelec; la section activites commerciales donne l'energie facturee par niveau de tension, dont la basse tension (BT) en GWh.",
+    "remarques": "Pages 17, 40 et 41: ventes BT 3 302,83 GWh en 2023."
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/Senelec/Senelec_rapport_annuel_2024.pdf",
+    "variables": [
+      "elec_bt"
+    ],
+    "source": "Senelec (Societe nationale d'electricite du Senegal)",
+    "titre": "Rapport annuel Senelec 2024",
+    "url_fichier": "https://www.senelec.sn/media/rapports/pdf/rapport-annuel-senelec-20241760024319_1.pdf",
+    "url_page": "https://www.senelec.sn/rapports/",
+    "periode_couverte": "2022 a 2024",
+    "description": "Rapport annuel 2024 de Senelec; la section activites commerciales donne l'energie facturee par niveau de tension, dont la basse tension (BT) en GWh.",
+    "remarques": "Pages 19, 40 et 41: ventes BT 3 531,65 GWh en 2024; 2 367 257 clients BT."
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/Senelec/Senelec_ventes_BT_GWh_extrait.csv",
+    "variables": [
+      "elec_bt"
+    ],
+    "source": "Senelec, rapports annuels 2019 a 2024",
+    "titre": "Extrait: ventes d'energie basse tension Senelec (GWh), 2017 a 2024",
+    "url_fichier": "https://www.senelec.sn/rapports/",
+    "url_page": "https://www.senelec.sn/rapports/",
+    "periode_couverte": "2017 a 2024 (annuel)",
+    "description": "Tableau de saisie des ventes BT en GWh relevees dans les PDF Senelec telecharges, avec le fichier et la page de chaque valeur.",
+    "remarques": "Valeurs recopiees des PDF (non calculees). 2025 absent: rapport annuel 2025 non publie au 05/10/2026. Le rapport 2018 n'est plus en ligne; 2017 et 2018 proviennent du rapport 2019."
+  },
+  {
+    "fichier": null,
+    "variables": [
+      "elec_bt"
+    ],
+    "source": "Senelec et CRSE",
+    "titre": "Ventes basse tension 2025",
+    "url_fichier": null,
+    "url_page": "https://www.senelec.sn/rapports/ ; https://www.crse.sn/documents/?cats=rapports",
+    "periode_couverte": "2025",
+    "description": "Donnee non trouvee pour 2025.",
+    "remarques": "Senelec ne publie pas encore de rapport annuel 2025 (page rapports: 2019 a 2024, le rapport 2018 est absent). La page documents de la CRSE charge sa liste en JavaScript; aucun PDF de rapport n'a pu etre recupere automatiquement. A verifier manuellement sur crse.sn."
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/Sonatel/Sonatel_rapport_annuel_2025.pdf",
+    "variables": [
+      "mm_cpt_ouv (substitut)",
+      "mm_cpt_act (substitut)"
+    ],
+    "source": "Sonatel (groupe Orange au Senegal)",
+    "titre": "Rapport annuel 2025 du groupe Sonatel",
+    "url_fichier": "https://sonatel.sn/wp-content/uploads/2026/04/R.A_SONATEL-25_WEB.pdf",
+    "url_page": "https://sonatel.sn/decouvrez-le-rapport-annuel-2025-du-groupe-sonatel/",
+    "periode_couverte": "2024 a 2025",
+    "description": "Document financier du groupe Sonatel utilise comme substitut pour les clients Orange Money au Senegal (inscrits et actifs).",
+    "remarques": "Page 55: tableau Parc Actifs OM par pays, Senegal 3 461 848 (2024) et 3 128 141 (2025, soit -9,6%). Pas de ligne Senegal pour les inscrits en 2025."
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/Sonatel/Sonatel_rapport_annuel_2024.pdf",
+    "variables": [
+      "mm_cpt_ouv (substitut)",
+      "mm_cpt_act (substitut)"
+    ],
+    "source": "Sonatel (groupe Orange au Senegal)",
+    "titre": "Rapport annuel 2024 du groupe Sonatel",
+    "url_fichier": "https://sonatel.sn/wp-content/uploads/2025/04/SONATEL_RA-2024_A4-Digital.pdf",
+    "url_page": "https://sonatel.sn/rapport-annuel-2024-du-groupe-sonatel/",
+    "periode_couverte": "2023 a 2024",
+    "description": "Document financier du groupe Sonatel utilise comme substitut pour les clients Orange Money au Senegal (inscrits et actifs).",
+    "remarques": "Page 32: Parc Inscrits OM Senegal 8 838 656 (2023) et 9 051 512 (2024); Parc Actifs OM Senegal 3 323 791 (2023) et 3 461 848 (2024)."
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/Sonatel/Sonatel_rapport_annuel_2023.pdf",
+    "variables": [
+      "mm_cpt_ouv (substitut)",
+      "mm_cpt_act (substitut)"
+    ],
+    "source": "Sonatel (groupe Orange au Senegal)",
+    "titre": "Rapport annuel 2023 du groupe Sonatel",
+    "url_fichier": "https://sonatel.sn/wp-content/uploads/2024/04/RA_ORANGE-SONATEL-2023_WEB.pdf",
+    "url_page": "https://sonatel.sn/category/rapports-annuels/",
+    "periode_couverte": "2022 a 2023",
+    "description": "Document financier du groupe Sonatel utilise comme substitut pour les clients Orange Money au Senegal (inscrits et actifs).",
+    "remarques": "Page 79: Parc Inscrits OM Senegal 7 084 799 (2022) et 8 838 656 (2023); Parc Actifs OM Senegal 3 229 139 (2022) et 3 323 791 (2023). Page 65: 32 760 points de vente actifs OM (fiche pays a verifier)."
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/Sonatel/Sonatel_rapport_annuel_2020.pdf",
+    "variables": [
+      "mm_cpt_ouv (substitut)",
+      "mm_cpt_act (substitut)"
+    ],
+    "source": "Sonatel (groupe Orange au Senegal)",
+    "titre": "Rapport annuel groupe Sonatel 2020",
+    "url_fichier": "https://sonatel.sn/wp-content/uploads/2022/09/Rapport-Annuel-Groupe-SONATEL-2020_V2.pdf",
+    "url_page": "https://sonatel.sn/rapport-annuel-groupe-sonatel-2020/",
+    "periode_couverte": "2019 a 2020",
+    "description": "Document financier du groupe Sonatel utilise comme substitut pour les clients Orange Money au Senegal (inscrits et actifs).",
+    "remarques": "Page 151 (synthese du rapport de gestion, section Senegal): parc Orange Money de 2,9 millions de clients actifs, +433 mille sur un an. Le lien publie sur la page (uploads/2019/10) est mort; le fichier est servi sous uploads/2022/09."
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/Sonatel/Sonatel_rapport_gestion_synthese_2021.pdf",
+    "variables": [
+      "mm_cpt_ouv (substitut)",
+      "mm_cpt_act (substitut)"
+    ],
+    "source": "Sonatel (groupe Orange au Senegal)",
+    "titre": "Synthese du rapport de gestion 2021 du groupe Sonatel",
+    "url_fichier": "https://sonatel.sn/wp-content/uploads/2022/09/synthese_Rapport-de-gestion-international-VF1.pdf",
+    "url_page": "https://sonatel.sn/resultats-financiers-2021-du-groupe-sonatel/",
+    "periode_couverte": "2020 a 2021",
+    "description": "Document financier du groupe Sonatel utilise comme substitut pour les clients Orange Money au Senegal (inscrits et actifs).",
+    "remarques": "Page 8 (Senegal): le parc Orange Money enregistre 3 millions de clients actifs, +53 mille sur un an."
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/Sonatel/Sonatel_resultats_2021.pdf",
+    "variables": [
+      "mm_cpt_ouv (substitut)",
+      "mm_cpt_act (substitut)"
+    ],
+    "source": "Sonatel (groupe Orange au Senegal)",
+    "titre": "Communique financier, resultats 2021 du groupe Sonatel",
+    "url_fichier": "https://sonatel.sn/wp-content/uploads/2022/09/COMFIN-Sonatel-Resultats-2021-FR-VF.pdf",
+    "url_page": "https://sonatel.sn/resultats-financiers-2021-du-groupe-sonatel/",
+    "periode_couverte": "2020 a 2021",
+    "description": "Document financier du groupe Sonatel utilise comme substitut pour les clients Orange Money au Senegal (inscrits et actifs).",
+    "remarques": "Page 23: Orange Money groupe (10,0 millions de clients actifs, 1 589,4 millions de transactions); pas de chiffre Senegal isole."
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/Sonatel/Sonatel_resultats_2022.pdf",
+    "variables": [
+      "mm_cpt_ouv (substitut)",
+      "mm_cpt_act (substitut)"
+    ],
+    "source": "Sonatel (groupe Orange au Senegal)",
+    "titre": "Communique financier, resultats financiers 2022 du groupe Sonatel",
+    "url_fichier": "https://sonatel.sn/wp-content/uploads/2023/02/COMFI-Groupe-Sonatel-resultats-financiers-2022-Fr-V-Finale-BRVM.pdf",
+    "url_page": "https://sonatel.sn/resultats-financiers-2022-du-groupe-sonatel/",
+    "periode_couverte": "2021 a 2022",
+    "description": "Document financier du groupe Sonatel utilise comme substitut pour les clients Orange Money au Senegal (inscrits et actifs).",
+    "remarques": "Presentation groupe; chiffres Orange Money consolides, pas de parc Senegal detaille repere."
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/Sonatel/Sonatel_resultats_2023.pdf",
+    "variables": [
+      "mm_cpt_ouv (substitut)",
+      "mm_cpt_act (substitut)"
+    ],
+    "source": "Sonatel (groupe Orange au Senegal)",
+    "titre": "Communique financier, resultats FY2023 du groupe Sonatel",
+    "url_fichier": "https://sonatel.sn/wp-content/uploads/2024/02/COMFI-Groupe-Sonatel-FY2023-BRVM-FR.pdf",
+    "url_page": "https://sonatel.sn/resultats-financiers-2023-du-groupe-sonatel/",
+    "periode_couverte": "2022 a 2023",
+    "description": "Document financier du groupe Sonatel utilise comme substitut pour les clients Orange Money au Senegal (inscrits et actifs).",
+    "remarques": "Presentation groupe; donnees Senegal detaillees dans le rapport annuel 2023."
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/Sonatel/Sonatel_resultats_2024.pdf",
+    "variables": [
+      "mm_cpt_ouv (substitut)",
+      "mm_cpt_act (substitut)"
+    ],
+    "source": "Sonatel (groupe Orange au Senegal)",
+    "titre": "Resultats financiers 2024 du groupe Sonatel (version francaise)",
+    "url_fichier": "https://sonatel.sn/wp-content/uploads/2025/02/Resultats-financiers-2024-du-Groupe-Sonatel_version-francaise.pdf",
+    "url_page": "https://sonatel.sn/resultats-consolides-du-groupe-sonatel-senegal-mali-guinee-guinee-bissau-sierra-leone-au-31-decembre-2024/",
+    "periode_couverte": "2023 a 2024",
+    "description": "Document financier du groupe Sonatel utilise comme substitut pour les clients Orange Money au Senegal (inscrits et actifs).",
+    "remarques": "Presentation groupe; donnees Senegal detaillees dans le rapport annuel 2024."
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/Sonatel/Sonatel_resultats_2025.pdf",
+    "variables": [
+      "mm_cpt_ouv (substitut)",
+      "mm_cpt_act (substitut)"
+    ],
+    "source": "Sonatel (groupe Orange au Senegal)",
+    "titre": "Resultats financiers FY 2025 du groupe Sonatel",
+    "url_fichier": "https://sonatel.sn/wp-content/uploads/2026/03/BRVM-FY-2025-FR-VF.pdf",
+    "url_page": "https://sonatel.sn/resultats-financiers-2025-du-groupe-sonatel/",
+    "periode_couverte": "2024 a 2025",
+    "description": "Document financier du groupe Sonatel utilise comme substitut pour les clients Orange Money au Senegal (inscrits et actifs).",
+    "remarques": "Presentation groupe; donnees Senegal detaillees dans le rapport annuel 2025."
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/Sonatel/Sonatel_presentation_resultats_2018.pdf",
+    "variables": [
+      "mm_cpt_ouv (substitut)",
+      "mm_cpt_act (substitut)"
+    ],
+    "source": "Sonatel (groupe Orange au Senegal)",
+    "titre": "Sonatel, presentation des resultats financiers 2018 (25/02/2019)",
+    "url_fichier": "https://sonatel.sn/wp-content/uploads/2022/09/Sonatel-Presentation-Resultats-2018-VF-25-02-2019.pdf",
+    "url_page": "https://sonatel.sn/category/rapports-annuels/",
+    "periode_couverte": "2017 a 2018",
+    "description": "Document financier du groupe Sonatel utilise comme substitut pour les clients Orange Money au Senegal (inscrits et actifs).",
+    "remarques": "Page 11 (fiche Senegal): Parc Orange Money 2,0 millions, penetration Orange Money 22,7%; la notion (actifs ou inscrits) n'est pas precisee. Page 24: chiffres Orange Money du groupe."
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/Sonatel/Sonatel_rapport_annuel_2017_EN.pdf",
+    "variables": [
+      "mm_cpt_ouv (substitut)",
+      "mm_cpt_act (substitut)"
+    ],
+    "source": "Sonatel (groupe Orange au Senegal)",
+    "titre": "Sonatel Group Annual Report 2017 (English version)",
+    "url_fichier": "https://sonatel.sn/wp-content/uploads/2022/09/Rapport-Annuel-EN-Groupe-Sonatel-2017.pdf",
+    "url_page": "https://sonatel.sn/annual-report-group-sonatel-2017/",
+    "periode_couverte": "2015 a 2017",
+    "description": "Document financier du groupe Sonatel utilise comme substitut pour les clients Orange Money au Senegal (inscrits et actifs).",
+    "remarques": "Page 149: Orange Money base (in thousand subscribers), Senegal 1 541 en 2017; notion (actifs ou inscrits) non precisee. Seule la version anglaise est en ligne."
+  },
+  {
+    "fichier": "03_FMI_BM_Senelec/Sonatel/Sonatel_Orange_Money_Senegal_extrait.csv",
+    "variables": [
+      "mm_cpt_ouv (substitut)",
+      "mm_cpt_act (substitut)"
+    ],
+    "source": "Sonatel, rapports annuels et presentations 2017 a 2025",
+    "titre": "Extrait: clients Orange Money Senegal (actifs et inscrits)",
+    "url_fichier": "https://sonatel.sn/category/rapports-annuels/",
+    "url_page": "https://sonatel.sn/category/rapports-annuels/",
+    "periode_couverte": "Actifs: 2017, 2018, 2020 a 2025; inscrits: 2022 a 2024",
+    "description": "Tableau de saisie des clients Orange Money Senegal releves dans les PDF Sonatel telecharges, avec fichier et page.",
+    "remarques": "Orange Money seulement (hors Wave, Free Money, etc.): ce n'est pas le total du marche. 2019 manquant (rapport annuel et communique 2019 hors ligne); un ordre de grandeur 2019 se deduit du rapport 2020 (2,9 millions moins 433 mille) mais n'a pas ete saisi. Valeurs 2018, 2020 et 2021 arrondies dans la source. Inscrits Senegal non publies avant 2022 dans les documents obtenus."
+  },
+  {
+    "fichier": null,
+    "variables": [
+      "mm_cpt_ouv (substitut)",
+      "mm_cpt_act (substitut)"
+    ],
+    "source": "Sonatel",
+    "titre": "Rapport annuel 2019 et communique de resultats 2019 du groupe Sonatel",
+    "url_fichier": "https://sonatel.sn/wp-content/uploads/2019/10/SON_Rapport-Annuel-2019_V12.pdf",
+    "url_page": "https://sonatel.sn/rapport-annuel-2019-du-groupe-sonatel/",
+    "periode_couverte": "2019",
+    "description": "Fichiers non obtenus: les liens publies renvoient une page HTML (fichier retire du serveur).",
+    "remarques": "Essais sur d'autres chemins wp-content/uploads sans succes; la Wayback Machine a renvoye une erreur 429. Le rapport 2020 donne la variation 2019 a 2020 pour le Senegal."
+  },
+  {
+    "fichier": null,
+    "variables": [
+      "mm_cpt_ouv",
+      "mm_cpt_act",
+      "mm_tot_val"
+    ],
+    "source": "ARTP Senegal (Autorite de regulation des telecommunications et des postes)",
+    "titre": "Rapport trimestriel sur le marche des communications electroniques",
+    "url_fichier": "https://www.artp.sn/sites/default/files/documents/Rapport%2031%20D%C3%A9c%202025%20DEC%20VF.pdf",
+    "url_page": "https://www.artp.sn/publications/rapports-sur-le-marche-des-communications-electroniques",
+    "periode_couverte": null,
+    "description": "Aucune donnee mobile money trouvee aupres de l'ARTP.",
+    "remarques": "Le rapport trimestriel T4 2025 (32 pages) a ete telecharge et analyse: il couvre la telephonie fixe, mobile et internet mais ne contient aucun indicateur mobile money ou services financiers; il n'a donc pas ete conserve. Le mobile money releve de la BCEAO, pas de l'ARTP. Seuls quelques rapports recents (T3 2025 a T2 2026) sont listes en ligne."
+  },
+  {
+    "fichier": null,
+    "variables": [
+      "findex_vente"
+    ],
+    "source": "Banque mondiale, Global Findex",
+    "titre": "Paiement recu pour la vente de biens ou une activite independante (hors agriculture)",
+    "url_fichier": "https://api.worldbank.org/v2/sources/28/country/SEN/series/all/time/all?format=json&per_page=20000",
+    "url_page": "https://databank.worldbank.org/source/global-financial-inclusion",
+    "periode_couverte": null,
+    "description": "Indicateur non disponible pour le Senegal dans la base Findex.",
+    "remarques": "Seuls les paiements pour la vente de produits agricoles (fin42, fin43a a fin43d) et les salaires (fin32, fin34) existent; ils sont fournis comme proxys dans BM_Findex_Senegal_indicateurs_selectionnes.csv. Findex est une enquete par vague (2017, 2021, 2024), pas une serie annuelle."
+  },
+  {
+    "fichier": null,
+    "variables": [
+      "findex_march"
+    ],
+    "source": "Banque mondiale, Global Findex",
+    "titre": "Paiement marchand numerique, vague 2017",
+    "url_fichier": "https://api.worldbank.org/v2/sources/28/country/SEN/series/all/time/all?format=json&per_page=20000",
+    "url_page": "https://databank.worldbank.org/source/global-financial-inclusion",
+    "periode_couverte": null,
+    "description": "Valeur 2017 absente pour le Senegal.",
+    "remarques": "merchant.pay, fin25e2, fin26b et fin27a ne sont disponibles que pour 2021 et 2024; g20.made (a effectue un paiement numerique) couvre 2014, 2017, 2021 et 2024 et peut servir d'approximation."
+  }
+]

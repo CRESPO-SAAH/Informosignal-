@@ -1,0 +1,540 @@
+[
+  {
+    "fichier": "02_BCEAO/BCEAO_Rapport_SFN_UEMOA_2019.pdf",
+    "variables": [
+      "mm_cpt_ouv",
+      "mm_cpt_act",
+      "mm_tot_val",
+      "mm_cashin_val",
+      "mm_cashout_val",
+      "mm_fact_val"
+    ],
+    "source": "BCEAO",
+    "titre": "Rapport annuel sur les services financiers numeriques dans l'UEMOA, annee 2019",
+    "url_fichier": "https://www.bceao.int/sites/default/files/2020-11/Rapport%20annuel%20sur%20les%20services%20financiers%20num%C3%A9riques%20dans%20l%27UEMOA%20-%202019.pdf",
+    "url_page": "https://www.bceao.int/fr/publications/rapport-annuel-sur-les-services-financiers-numeriques-dans-luemoa-2019",
+    "periode_couverte": "2019 (series UEMOA 2015 a 2019)",
+    "description": "Rapport annuel BCEAO sur la monnaie electronique dans l'UEMOA pour 2019, avec annexes par pays.",
+    "remarques": "Annexe 2 (page PDF 33, page tournee) : comptes ouverts et actifs et valeur totale des transactions par pays, Senegal inclus. Annexe 3 (pages PDF 34 et 35) : rechargement cash, retrait cash, paiement de factures, credit telephonique, mais uniquement pour les etablissements de monnaie electronique (EME), sans les banques emettrices. Transferts hors UEMOA en reception non ventiles par pays. Texte p. 13 (page PDF 19) : commentaire Senegal (hausse de 71,3% de la valeur des transactions en 2019, 121 565 points de services en 2018)."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Tableau_de_bord_SFN_2019.pdf",
+    "variables": [
+      "mm_cpt_ouv",
+      "mm_tot_val"
+    ],
+    "source": "BCEAO",
+    "titre": "Tableau de bord des services financiers numeriques dans l'UEMOA, annee 2019",
+    "url_fichier": "https://www.bceao.int/sites/default/files/inline-files/Tableau%20de%20bord%20des%20services%20financiers%20num%C3%A9riques%20-%202019.pdf",
+    "url_page": "https://www.bceao.int/fr/publications/rapport-annuel-sur-les-services-financiers-numeriques-dans-luemoa-2019",
+    "periode_couverte": "2015 a 2019",
+    "description": "Tableau de bord graphique (2 pages grand format) accompagnant le rapport SFN 2019.",
+    "remarques": "Graphiques par pays (dont Senegal) sans etiquettes de donnees exploitables ; chiffres Senegal a prendre dans le rapport SFN 2019."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Rapport_SFN_UEMOA_2020.pdf",
+    "variables": [
+      "mm_tot_val",
+      "mm_cashin_val",
+      "mm_cashout_val",
+      "mm_intl_val",
+      "mm_fact_val",
+      "mm_cpt_ouv",
+      "mm_cpt_act"
+    ],
+    "source": "BCEAO",
+    "titre": "Rapport annuel sur l'evolution des services financiers numeriques dans l'UEMOA, annee 2020",
+    "url_fichier": "https://www.bceao.int/sites/default/files/2022-05/Evolution_Services_Financier_Numerique_UEMOA_2020.pdf",
+    "url_page": "https://www.bceao.int/fr/publications/rapport-annuel-sur-les-services-financiers-numeriques-dans-luemoa-2020",
+    "periode_couverte": "2020 (comparaison 2019)",
+    "description": "Rapport annuel BCEAO sur les SFN dans l'UEMOA pour 2020, avec annexes par pays.",
+    "remarques": "Annexe 6 (pages PDF 39 a 43) : colonne SENEGAL pour comptes ouverts et actifs (p. 39), valeur totale et rechargements (p. 41), transferts P2P et paiements (p. 42), transferts hors UEMOA en reception, credit telephonique et retraits (p. 43). Transferts hors UEMOA : ND pour le Senegal. Annexe 5 (p. 38) : comparaison 2019 et 2020 par pays."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Rapport_SFN_UEMOA_2021.pdf",
+    "variables": [
+      "mm_tot_val",
+      "mm_cashin_val",
+      "mm_cashout_val",
+      "mm_intl_val",
+      "mm_fact_val",
+      "mm_cpt_ouv",
+      "mm_cpt_act"
+    ],
+    "source": "BCEAO",
+    "titre": "Rapport annuel sur les services financiers numeriques dans l'UEMOA a fin 2021",
+    "url_fichier": "https://www.bceao.int/sites/default/files/2023-02/Rapport%20annuel%20sur%20les%20services%20financiers%20num%C3%A9riques%20dans%20l%27UEMOA%20%C3%A0%20fin%202021.pdf",
+    "url_page": "https://www.bceao.int/fr/publications/rapport-annuel-sur-les-services-financiers-numeriques-dans-luemoa-2021",
+    "periode_couverte": "2021 (comparaison 2020)",
+    "description": "Rapport annuel BCEAO sur les SFN dans l'UEMOA pour 2021, avec etat synoptique et etat detaille par pays.",
+    "remarques": "Annexe 5 (pages PDF 42 a 46) : comptes (p. 42), valeur totale et rechargements (p. 44), P2P et paiements (p. 45), hors UEMOA en reception, credit telephonique, retraits (p. 46). Annexe 3 (p. 39 et 40) : etat synoptique en milliards FCFA."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Rapport_SFN_UEMOA_2018_2022.pdf",
+    "variables": [
+      "mm_tot_val",
+      "mm_cashin_val",
+      "mm_cashout_val",
+      "mm_intl_val",
+      "mm_fact_val",
+      "mm_cpt_ouv",
+      "mm_cpt_act"
+    ],
+    "source": "BCEAO (fichier heberge par FinDev Gateway / CGAP)",
+    "titre": "Evolution des services financiers numeriques dans l'UEMOA de 2018 a 2022 (rapport au titre de l'annee 2022, fevrier 2025)",
+    "url_fichier": "https://www.findevgateway.org/sites/default/files/publications/2025/Rapport_Annuel_Services_Financiers_Dans_UEMOA_2022.pdf",
+    "url_page": "https://www.findevgateway.org/fr/publication/2025/05/rapport-annuel-sur-les-services-financiers-numeriques-dans-luemoa-de-2018-2022",
+    "periode_couverte": "2018 a 2022 (annexes par pays pour 2022 seulement)",
+    "description": "Rapport BCEAO retrospectif 2018 a 2022 tenant lieu de rapport SFN 2022 ; fichier BCEAO rediffuse par FinDev Gateway (aucune page BCEAO 2022 trouvee).",
+    "remarques": "Annexe 6 (pages PDF 43 a 45) : colonne SENEGAL 2022 pour comptes (p. 43), valeur totale, rechargements, P2P, paiements (p. 44), hors UEMOA en reception, credit telephonique, retraits (p. 45). Le texte (pages PDF 16 et 17) indique que les comptes ouverts au Senegal ont progresse de 324,15% entre 2018 et 2022 (niveau 2018 seulement en graphique, non chiffre)."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Rapport_SFN_UEMOA_2023.pdf",
+    "variables": [
+      "mm_tot_val",
+      "mm_cashin_val",
+      "mm_cashout_val",
+      "mm_intl_val",
+      "mm_fact_val",
+      "mm_cpt_ouv",
+      "mm_cpt_act"
+    ],
+    "source": "BCEAO (fichier heberge par FinDev Gateway / CGAP)",
+    "titre": "Rapport annuel sur les services financiers numeriques dans l'UEMOA, 2023",
+    "url_fichier": "https://www.findevgateway.org/sites/default/files/publications/2025/Rapport_Annuel_Services_Financiers_Dans_UEMOA_2023.pdf",
+    "url_page": "https://www.bceao.int/fr/publications/rapport-annuel-sur-les-services-financiers-numeriques-dans-luemoa-2023",
+    "periode_couverte": "2023 (comparaison 2022)",
+    "description": "Rapport annuel BCEAO sur les SFN pour 2023 ; la page BCEAO n'offre pas de lien de telechargement, le PDF a ete recupere sur FinDev Gateway.",
+    "remarques": "Annexe 5 (pages PDF 36 et 37) : comptes ouverts et actifs (p. 36), valeur totale, rechargements, P2P, paiements, intra UEMOA, hors UEMOA en reception, credit telephonique, retraits (p. 37). Annexe 4 (p. 35) : comparaison 2022 et 2023. Page FinDev : https://www.findevgateway.org/fr/publication/2025/02/rapport-annuel-sur-les-services-financiers-numeriques-dans-luemoa-2023"
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Rapport_SFN_UEMOA_2024.pdf",
+    "variables": [
+      "mm_tot_val",
+      "mm_cashin_val",
+      "mm_cashout_val",
+      "mm_intl_val",
+      "mm_fact_val",
+      "mm_cpt_ouv",
+      "mm_cpt_act"
+    ],
+    "source": "BCEAO",
+    "titre": "Rapport annuel sur l'evolution des services financiers numeriques dans l'UEMOA, annee 2024",
+    "url_fichier": "https://www.bceao.int/sites/default/files/2026-03/Rapport%20annuel%20sur%20les%20services%20financiers%20num%C3%A9riques%20dans%20l%27UEMOA%20-%202024.pdf",
+    "url_page": "https://www.bceao.int/fr/publications/rapport-annuel-sur-les-services-financiers-numeriques-dans-luemoa-2024",
+    "periode_couverte": "2024 (comparaison 2023)",
+    "description": "Dernier rapport annuel SFN publie (mars 2026), annexes par pays.",
+    "remarques": "Annexe 4 (pages PDF 35 et 36) : comptes (p. 35), valeur totale, rechargements, P2P, paiements, intra UEMOA, hors UEMOA en reception, credit telephonique, retraits (p. 36). Annexe 2 (p. 33) : etat synoptique en milliards FCFA."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_SFN_Senegal_extrait.csv",
+    "variables": [
+      "mm_tot_val",
+      "mm_cashin_val",
+      "mm_cashout_val",
+      "mm_intl_val",
+      "mm_fact_val",
+      "mm_cpt_ouv",
+      "mm_cpt_act",
+      "mm_p2p_val",
+      "mm_paiements_val",
+      "mm_credit_tel_val",
+      "mm_intra_uemoa_val"
+    ],
+    "source": "BCEAO, compilation InformoSignal",
+    "titre": "Extrait Senegal des annexes des rapports SFN BCEAO 2019 a 2024 (compilation)",
+    "url_fichier": null,
+    "url_page": null,
+    "periode_couverte": "2019 a 2024",
+    "description": "CSV de 60 lignes : chiffres Senegal lus dans les annexes par pays des rapports SFN, avec fichier et page PDF de chaque valeur.",
+    "remarques": "Valeurs en millions FCFA (ou nombre de comptes). Chaque valeur a ete controlee automatiquement par recherche dans le texte de la page PDF citee. mm_fact_val n'existe pas tel quel apres 2019 : utiliser mm_paiements_val (tous paiements, dont factures et marchands) et mm_credit_tel_val (achat de credit). Les lignes 2019 suffixees _EME couvrent seulement les EME. mm_intl_val 2020 = ND dans la source."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Rapport_inclusion_financiere_UEMOA_2017.pdf",
+    "variables": [
+      "mm_cpt_ouv",
+      "mm_cpt_act"
+    ],
+    "source": "BCEAO",
+    "titre": "Rapport annuel sur la situation de l'inclusion financiere dans l'UEMOA au cours de l'annee 2017",
+    "url_fichier": "https://www.bceao.int/sites/default/files/2019-03/Rapport_Annuel_Situation_Inclusion_Financiere_UMOA_BCEAO.pdf",
+    "url_page": "https://www.bceao.int/fr/publications/rapport-annuel-sur-la-situation-de-linclusion-financiere-dans-luemoa-au-cours-de",
+    "periode_couverte": "2007 a 2017",
+    "description": "Rapport annuel BCEAO sur l'inclusion financiere dans l'UEMOA (indicateurs d'acces et d'usage, dont monnaie electronique, par pays).",
+    "remarques": "Donne surtout des taux (TUSME, points de services pour 10 000 adultes, taux d'inclusion) par pays, pas les valeurs des transactions. Utile pour 2017 et 2018, annees pour lesquelles les rapports SFN par pays n'ont pas ete trouves."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Rapport_inclusion_financiere_UEMOA_2018.pdf",
+    "variables": [
+      "mm_cpt_ouv",
+      "mm_cpt_act"
+    ],
+    "source": "BCEAO",
+    "titre": "Rapport sur la situation de l'inclusion financiere dans l'UEMOA au cours de l'annee 2018",
+    "url_fichier": "https://www.bceao.int/sites/default/files/2019-10/Rapport_Annuel_2018_Situation_Inclusion_Financiere.pdf",
+    "url_page": "https://www.bceao.int/fr/publications/rapport-annuel-sur-la-situation-de-linclusion-financiere-dans-luemoa-au-cours-de-0",
+    "periode_couverte": "2008 a 2018",
+    "description": "Rapport annuel BCEAO sur l'inclusion financiere dans l'UEMOA (indicateurs d'acces et d'usage, dont monnaie electronique, par pays).",
+    "remarques": "Donne surtout des taux (TUSME, points de services pour 10 000 adultes, taux d'inclusion) par pays, pas les valeurs des transactions. Utile pour 2017 et 2018, annees pour lesquelles les rapports SFN par pays n'ont pas ete trouves."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Rapport_inclusion_financiere_UEMOA_2019.pdf",
+    "variables": [
+      "mm_cpt_ouv",
+      "mm_cpt_act"
+    ],
+    "source": "BCEAO",
+    "titre": "Rapport annuel sur la situation de l'inclusion financiere dans l'UEMOA au titre de l'annee 2019",
+    "url_fichier": "https://www.bceao.int/sites/default/files/2020-11/Rapport%20annuel%20situation%20inclusion%20financie%CC%80re%20UEMOA%20-%202019.pdf",
+    "url_page": "https://www.bceao.int/fr/publications/rapport-annuel-sur-la-situation-de-linclusion-financiere-dans-luemoa-au-cours-de-1",
+    "periode_couverte": "2019",
+    "description": "Rapport annuel BCEAO sur l'inclusion financiere dans l'UEMOA (indicateurs d'acces et d'usage, dont monnaie electronique, par pays).",
+    "remarques": "Donne surtout des taux (TUSME, points de services pour 10 000 adultes, taux d'inclusion) par pays, pas les valeurs des transactions. Utile pour 2017 et 2018, annees pour lesquelles les rapports SFN par pays n'ont pas ete trouves."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Rapport_inclusion_financiere_UEMOA_2020.pdf",
+    "variables": [
+      "mm_cpt_ouv",
+      "mm_cpt_act"
+    ],
+    "source": "BCEAO",
+    "titre": "Rapport sur la situation de l'inclusion financiere dans l'UEMOA au titre de l'annee 2020",
+    "url_fichier": "https://www.bceao.int/sites/default/files/2021-12/Rapport_Annuel_Situation_Inclusion_Financi%C3%A8re_UEMOA_2020.pdf",
+    "url_page": "https://www.bceao.int/fr/publications/rapport-annuel-sur-la-situation-de-linclusion-financiere-dans-luemoa-au-cours-de-2",
+    "periode_couverte": "2020",
+    "description": "Rapport annuel BCEAO sur l'inclusion financiere dans l'UEMOA (indicateurs d'acces et d'usage, dont monnaie electronique, par pays).",
+    "remarques": "Donne surtout des taux (TUSME, points de services pour 10 000 adultes, taux d'inclusion) par pays, pas les valeurs des transactions. Utile pour 2017 et 2018, annees pour lesquelles les rapports SFN par pays n'ont pas ete trouves."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Rapport_inclusion_financiere_UEMOA_2022.pdf",
+    "variables": [
+      "mm_cpt_ouv",
+      "mm_cpt_act"
+    ],
+    "source": "BCEAO",
+    "titre": "Rapport annuel sur la situation de l'inclusion financiere dans l'UEMOA au titre de l'annee 2022",
+    "url_fichier": "https://www.bceao.int/sites/default/files/2024-05/Rapport%20Annuel%20Inclusion%20Financiere_2022.pdf",
+    "url_page": "https://www.bceao.int/fr/publications/rapport-annuel-sur-la-situation-de-linclusion-financiere-dans-luemoa-au-titre-de",
+    "periode_couverte": "2022",
+    "description": "Rapport annuel BCEAO sur l'inclusion financiere dans l'UEMOA (indicateurs d'acces et d'usage, dont monnaie electronique, par pays).",
+    "remarques": "Donne surtout des taux (TUSME, points de services pour 10 000 adultes, taux d'inclusion) par pays, pas les valeurs des transactions. Utile pour 2017 et 2018, annees pour lesquelles les rapports SFN par pays n'ont pas ete trouves."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Rapport_inclusion_financiere_UEMOA_2023.pdf",
+    "variables": [
+      "mm_cpt_ouv",
+      "mm_cpt_act"
+    ],
+    "source": "BCEAO (fichier heberge par FinDev Gateway / CGAP)",
+    "titre": "Rapport sur la situation de l'inclusion financiere dans l'UEMOA au cours de l'annee 2023",
+    "url_fichier": "https://www.findevgateway.org/sites/default/files/publications/2025/Rapport_Annuel_Inclusion_Financiere_Dans_UEMOA_2023.pdf",
+    "url_page": "https://www.findevgateway.org/fr/publication/2025/05/rapport-annuel-sur-la-situation-de-linclusion-financiere-dans-luemoa-au-titre",
+    "periode_couverte": "2023",
+    "description": "Rapport annuel BCEAO sur l'inclusion financiere dans l'UEMOA (indicateurs d'acces et d'usage, dont monnaie electronique, par pays).",
+    "remarques": "Donne surtout des taux (TUSME, points de services pour 10 000 adultes, taux d'inclusion) par pays, pas les valeurs des transactions. Utile pour 2017 et 2018, annees pour lesquelles les rapports SFN par pays n'ont pas ete trouves."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Rapport_inclusion_financiere_UEMOA_2024.pdf",
+    "variables": [
+      "mm_cpt_ouv",
+      "mm_cpt_act"
+    ],
+    "source": "BCEAO",
+    "titre": "Rapport sur la situation de l'inclusion financiere dans l'UEMOA au cours de l'annee 2024",
+    "url_fichier": "https://www.bceao.int/sites/default/files/2026-06/Rapport_Annuel_Inclusion_Financiere_2024.pdf",
+    "url_page": "https://www.findevgateway.org/fr/publication/2026/06/rapport-annuel-sur-la-situation-de-linclusion-financiere-dans-luemoa-2024",
+    "periode_couverte": "2024",
+    "description": "Rapport annuel BCEAO sur l'inclusion financiere dans l'UEMOA (indicateurs d'acces et d'usage, dont monnaie electronique, par pays).",
+    "remarques": "Donne surtout des taux (TUSME, points de services pour 10 000 adultes, taux d'inclusion) par pays, pas les valeurs des transactions. Utile pour 2017 et 2018, annees pour lesquelles les rapports SFN par pays n'ont pas ete trouves."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Indicateurs_inclusion_financiere_UEMOA_2017.pdf",
+    "variables": [
+      "mm_cpt_ouv",
+      "mm_cpt_act"
+    ],
+    "source": "BCEAO",
+    "titre": "Indicateurs de suivi de l'inclusion financiere dans l'UEMOA au titre de l'annee 2017",
+    "url_fichier": "https://www.bceao.int/sites/default/files/2019-04/Indicateurs%20de%20suivi%20de%20l%27inclusion%20financie%CC%80re%20dans%20l%27UEMOA%20au%20titre%20de%20l%27ann%C3%A9e%202017_0.pdf",
+    "url_page": "https://www.bceao.int/fr/documents/inclusion-financiere",
+    "periode_couverte": "2007 a 2017",
+    "description": "Tableaux d'indicateurs d'inclusion financiere par pays de l'UEMOA (publies en PDF, aucun Excel trouve).",
+    "remarques": "Indicateurs 7 et 8 : taux d'utilisation des services de monnaie electronique (TUSME) base comptes ouverts et base comptes actifs, par pays dont Senegal (pages PDF 23 a 37 environ). Ce sont des ratios sur population adulte, pas des nombres de comptes."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Indicateurs_inclusion_financiere_UEMOA_2018.pdf",
+    "variables": [
+      "mm_cpt_ouv",
+      "mm_cpt_act"
+    ],
+    "source": "BCEAO",
+    "titre": "Evolution des indicateurs d'inclusion financiere dans l'UEMOA au titre de l'annee 2018",
+    "url_fichier": "https://www.bceao.int/sites/default/files/2019-10/Evolution%20des%20indicateurs%20d%27inclusion%20financie%CC%80re%20dans%20l%27UEMOA%20au%20titre%20de%20l%27anne%CC%81e%202018.pdf",
+    "url_page": "https://www.bceao.int/fr/documents/inclusion-financiere",
+    "periode_couverte": "2008 a 2018",
+    "description": "Tableaux d'indicateurs d'inclusion financiere par pays de l'UEMOA (publies en PDF, aucun Excel trouve).",
+    "remarques": "Indicateurs 7 et 8 : taux d'utilisation des services de monnaie electronique (TUSME) base comptes ouverts et base comptes actifs, par pays dont Senegal (pages PDF 23 a 37 environ). Ce sont des ratios sur population adulte, pas des nombres de comptes."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Indicateurs_inclusion_financiere_UEMOA_2019.pdf",
+    "variables": [
+      "mm_cpt_ouv",
+      "mm_cpt_act"
+    ],
+    "source": "BCEAO",
+    "titre": "Evolution des indicateurs d'inclusion financiere dans l'UEMOA au titre de l'annee 2019",
+    "url_fichier": "https://www.bceao.int/sites/default/files/2020-09/Evolution%20des%20indicateurs%20d%27inclusion%20financie%CC%80re%20dans%20l%27UEMOA%20au%20titre%20de%20l%27anne%CC%81e%202019.pdf",
+    "url_page": "https://www.bceao.int/fr/documents/inclusion-financiere",
+    "periode_couverte": "2009 a 2019",
+    "description": "Tableaux d'indicateurs d'inclusion financiere par pays de l'UEMOA (publies en PDF, aucun Excel trouve).",
+    "remarques": "Indicateurs 7 et 8 : taux d'utilisation des services de monnaie electronique (TUSME) base comptes ouverts et base comptes actifs, par pays dont Senegal (pages PDF 23 a 37 environ). Ce sont des ratios sur population adulte, pas des nombres de comptes."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Indicateurs_inclusion_financiere_UEMOA_2020.pdf",
+    "variables": [
+      "mm_cpt_ouv",
+      "mm_cpt_act"
+    ],
+    "source": "BCEAO",
+    "titre": "Evolution des indicateurs d'inclusion financiere dans l'UEMOA au titre de l'annee 2020",
+    "url_fichier": "https://www.bceao.int/sites/default/files/2021-12/Evolution%20des%20indicateurs%20d%27inclusion%20financi%C3%A8re%20dans%20l%27UEMOA%20au%20titre%20de%20l%27ann%C3%A9e%202020.pdf",
+    "url_page": "https://www.bceao.int/fr/documents/inclusion-financiere",
+    "periode_couverte": "2010 a 2020",
+    "description": "Tableaux d'indicateurs d'inclusion financiere par pays de l'UEMOA (publies en PDF, aucun Excel trouve).",
+    "remarques": "Indicateurs 7 et 8 : taux d'utilisation des services de monnaie electronique (TUSME) base comptes ouverts et base comptes actifs, par pays dont Senegal (pages PDF 23 a 37 environ). Ce sont des ratios sur population adulte, pas des nombres de comptes."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Indicateurs_inclusion_financiere_UEMOA_2021.pdf",
+    "variables": [
+      "mm_cpt_ouv",
+      "mm_cpt_act"
+    ],
+    "source": "BCEAO",
+    "titre": "Tableau de suivi des indicateurs d'inclusion financiere dans l'UEMOA a fin decembre 2021",
+    "url_fichier": "https://www.bceao.int/sites/default/files/2022-09/Tableau%20de%20suivi%20des%20indicateurs%20d%27inclusion%20financi%C3%A8re%20dans%20l%27UEMOA%20%C3%A0%20fin%20D%C3%A9c%202021.pdf",
+    "url_page": "https://www.bceao.int/fr/documents/inclusion-financiere",
+    "periode_couverte": "2011 a 2021",
+    "description": "Tableaux d'indicateurs d'inclusion financiere par pays de l'UEMOA (publies en PDF, aucun Excel trouve).",
+    "remarques": "Indicateurs 7 et 8 : taux d'utilisation des services de monnaie electronique (TUSME) base comptes ouverts et base comptes actifs, par pays dont Senegal (pages PDF 23 a 37 environ). Ce sont des ratios sur population adulte, pas des nombres de comptes."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Indicateurs_inclusion_financiere_UEMOA_2022.pdf",
+    "variables": [
+      "mm_cpt_ouv",
+      "mm_cpt_act"
+    ],
+    "source": "BCEAO",
+    "titre": "Tableau de suivi des indicateurs d'inclusion financiere dans l'UEMOA a fin 2022 (synthese)",
+    "url_fichier": "https://www.bceao.int/sites/default/files/2024-01/Tableau%20de%20suivi%20des%20indicateurs%20d%27inclusion%20financi%C3%A8re%20dans%20l%27UEMOA%20%C3%A0%20fin%202022%20_synth%C3%A8se.pdf",
+    "url_page": "https://www.bceao.int/fr/documents/inclusion-financiere",
+    "periode_couverte": "2012 a 2022",
+    "description": "Tableaux d'indicateurs d'inclusion financiere par pays de l'UEMOA (publies en PDF, aucun Excel trouve).",
+    "remarques": "Indicateurs 7 et 8 : taux d'utilisation des services de monnaie electronique (TUSME) base comptes ouverts et base comptes actifs, par pays dont Senegal (pages PDF 23 a 37 environ). Ce sont des ratios sur population adulte, pas des nombres de comptes."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Tableau_de_bord_inclusion_financiere_UEMOA_2021.pdf",
+    "variables": [
+      "mm_cpt_ouv",
+      "mm_cpt_act"
+    ],
+    "source": "BCEAO",
+    "titre": "Tableau de bord de l'inclusion financiere dans l'UEMOA au titre de l'annee 2021",
+    "url_fichier": "https://www.bceao.int/sites/default/files/2022-09/Tableau%20de%20bord%20de%20l%27inclusion%20financi%C3%A8re%20au%20titre%20de%20l%27ann%C3%A9e%202021.pdf",
+    "url_page": "https://www.findevgateway.org/fr/publication/2022/09/tableau-de-bord-de-linclusion-financiere-dans-luemoa-au-titre-de-lannee-2021",
+    "periode_couverte": "2021",
+    "description": "Tableau de bord synthetique de l'inclusion financiere par pays de l'UEMOA.",
+    "remarques": "Fiches pays avec indicateurs de monnaie electronique (taux), Senegal inclus. Complement, pas source principale des valeurs."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Tableau_de_bord_inclusion_financiere_UEMOA_2023.pdf",
+    "variables": [
+      "mm_cpt_ouv",
+      "mm_cpt_act"
+    ],
+    "source": "BCEAO",
+    "titre": "Tableau de bord de l'inclusion financiere dans l'UEMOA au titre de l'annee 2023",
+    "url_fichier": "https://www.bceao.int/sites/default/files/inline-files/Tableau%20de%20Bord%20de%20l'inclusion%20financi%C3%A8re%20dans%20l'UEMOA-2023_Edit%C3%A9.pdf",
+    "url_page": "https://www.findevgateway.org/fr/publication/2025/05/tableau-de-bord-de-linclusion-financiere-dans-luemoa-au-titre-de-lannee-2023",
+    "periode_couverte": "2023",
+    "description": "Tableau de bord synthetique de l'inclusion financiere par pays de l'UEMOA.",
+    "remarques": "Fiches pays avec indicateurs de monnaie electronique (taux), Senegal inclus. Complement, pas source principale des valeurs."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Tableau_de_bord_inclusion_financiere_UEMOA_2024.pdf",
+    "variables": [
+      "mm_cpt_ouv",
+      "mm_cpt_act"
+    ],
+    "source": "BCEAO (fichier heberge par FinDev Gateway / CGAP)",
+    "titre": "Tableau de bord de l'inclusion financiere dans l'UEMOA au titre de l'annee 2024",
+    "url_fichier": "https://www.findevgateway.org/sites/default/files/publications/2025/Tableau_de_bord_de%20l%27inclusion%20financi_re%20dans%20l%27UEMOA_2024.pdf",
+    "url_page": "https://www.findevgateway.org/fr/publication/2025/10/tableau-de-bord-de-linclusion-financiere-dans-luemoa-au-titre-de-lannee-2024",
+    "periode_couverte": "2024",
+    "description": "Tableau de bord synthetique de l'inclusion financiere par pays de l'UEMOA.",
+    "remarques": "Fiches pays avec indicateurs de monnaie electronique (taux), Senegal inclus. Complement, pas source principale des valeurs."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Bulletin_trimestriel_statistiques_T4_2025.pdf",
+    "variables": [
+      "ica_com",
+      "ihpc"
+    ],
+    "source": "BCEAO",
+    "titre": "Bulletin trimestriel des statistiques, quatrieme trimestre 2025",
+    "url_fichier": "https://www.bceao.int/sites/default/files/2026-04/Bulletin-Trimestriel-des-Statistiques-Quatri%C3%A8me-trimestre-2025.pdf",
+    "url_page": "https://www.bceao.int/fr/publications/bulletin-trimestriel-des-statistiques-decembre-2025",
+    "periode_couverte": "ICA : 2019T3 a 2025T4 ; IHPC : annuel 2023 a 2025 et mensuel avril 2024 a decembre 2025",
+    "description": "Bulletin trimestriel BCEAO, numero T4 2025.",
+    "remarques": "Tableau 7.2 (p. 21, page PDF 22) : indice du chiffre d'affaires du commerce de detail, donnees brutes, base 2022, colonne Senegal ; 2025T4 provisoire. Tableau 11.1.8.a (p. 45, page PDF 46) : IHPC Senegal base 100=2023 (indice global et 13 fonctions). La ligne octobre 2025 des fonctions semble decalee dans le PDF (indice global 104,4 coherent avec EDEN). Le sommaire numerote la section ICA 7.3 mais le tableau porte le numero 7.2."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Bulletin_trimestriel_statistiques_T4_2022.pdf",
+    "variables": [
+      "ica_com",
+      "ihpc"
+    ],
+    "source": "BCEAO",
+    "titre": "Bulletin trimestriel des statistiques, decembre 2022",
+    "url_fichier": "https://www.bceao.int/sites/default/files/2023-03/Bulletin%20Trimestriel%20des%20Statistiques%20-%20D%C3%A9cembre%202022.pdf",
+    "url_page": "https://www.bceao.int/fr/publications/bulletin-trimestriel-des-statistiques-decembre-2022",
+    "periode_couverte": "ICA : 2016T4 a 2022T4 ; IHPC : annuel 2018 a 2022 et mensuel decembre 2020 a decembre 2022",
+    "description": "Bulletin trimestriel BCEAO, numero T4 2022 ; fait le pont entre l'ancienne base ICA 2013 et la nouvelle base 2022.",
+    "remarques": "Tableau 7.2 (p. 20, page PDF 21) : ICA commerce de detail, base 2013, colonne Senegal, couvre 2017T1 a 2019T2 avec des chiffres revises (ex. 2018T4 = 120,3 contre 118,1 dans le bulletin T2 2019). Chevauchement 2019T3 a 2022T4 avec la base 2022, utile pour un raccordement. Tableau 11.1.8.a (page PDF 45) : IHPC Senegal base 100=2014."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_Bulletin_trimestriel_statistiques_T2_2019.pdf",
+    "variables": [
+      "ica_com",
+      "ihpc"
+    ],
+    "source": "BCEAO",
+    "titre": "Bulletin trimestriel des statistiques, juin 2019",
+    "url_fichier": "https://www.bceao.int/sites/default/files/2019-09/Bulletin%20trimestriel%20des%20statistiques%20-%20Juin%20%202019_0.pdf",
+    "url_page": "https://www.bceao.int/fr/publications/bulletins",
+    "periode_couverte": "ICA : 2013T1 a 2019T2 ; IHPC : annuel 2015 a 2018 et mensuel juin 2017 a juin 2019",
+    "description": "Bulletin trimestriel BCEAO, numero T2 2019 (base ICA 2013).",
+    "remarques": "Tableau 7.2 (p. 20, page PDF 21) : ICA commerce de detail, base 2013, Senegal. Tableau 11.1.8.a (p. 43, page PDF 44) : IHPC Senegal base 100=2014. Chiffres 2018 et 2019 revises ensuite dans le bulletin T4 2022, a preferer."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_BTS_Senegal_ICA_commerce_detail.csv",
+    "variables": [
+      "ica_com"
+    ],
+    "source": "BCEAO, compilation InformoSignal",
+    "titre": "Extrait Senegal du tableau 7.2 (ICA commerce de detail) de trois bulletins trimestriels",
+    "url_fichier": null,
+    "url_page": null,
+    "periode_couverte": "2013T1 a 2025T4 (trois millesimes, deux bases)",
+    "description": "CSV long : trimestre, valeur, base, fichier et tableau source, extrait par coordonnees de la colonne Senegal.",
+    "remarques": "77 lignes. Controle : variations T4 2025 (+11,9% sur un trimestre, moins 2,8% sur un an) et T2 2019 (+0,8% et +16,3%) recalculees a l'identique. Ne pas melanger les bases 2013 et 2022 sans raccordement sur la periode commune 2019T3 a 2022T4."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_BTS_Senegal_IHPC_indice_global.csv",
+    "variables": [
+      "ihpc"
+    ],
+    "source": "BCEAO, compilation InformoSignal",
+    "titre": "Extrait Senegal du tableau 11.1.8.a (IHPC indice global) de trois bulletins trimestriels",
+    "url_fichier": null,
+    "url_page": null,
+    "periode_couverte": "annuel 2015 a 2025 ; mensuel juin 2017 a juin 2019, decembre 2020 a decembre 2022, avril 2024 a decembre 2025",
+    "description": "CSV long de l'indice global IHPC Senegal lu dans les bulletins (bases 2014 et 2023).",
+    "remarques": "Les bulletins ne donnent que 24 mois glissants ; la serie mensuelle complete 2017 a 2025 en base 2023 est dans BCEAO_EDEN_Senegal_mensuel_IHPC_ICA.csv (code KKKSR3017M0BP)."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_EDEN_Senegal_mensuel_IHPC_ICA.csv",
+    "variables": [
+      "ihpc",
+      "ica_com"
+    ],
+    "source": "BCEAO",
+    "titre": "Base EDEN BCEAO, series mensuelles Senegal (IHPC, ICA et composantes, climat des affaires commerce)",
+    "url_fichier": "https://edenpub.bceao.int/exportRapport.php (POST parametre=M*<code>*1;2017*12;2025*0*c et export=xcl)",
+    "url_page": "https://edenpub.bceao.int/",
+    "periode_couverte": "janvier 2017 a decembre 2025 (ICA KKKSR2191M0AP renseigne jusqu'en decembre 2024 seulement)",
+    "description": "Export automatique serie par serie de la base EDEN (Secteur reel), assemble en CSV long (code, libelle, mois, valeur).",
+    "remarques": "Chemin manuel : edenpub.bceao.int, cocher SENEGAL, Secteur reel, sous secteur Prix (IHPC KKKSR3017M0BP base 2023 retropolee, inflation KKKSR3072M0BP, ICA services financiers KKKSR3146M0BP, climat des affaires commerce KKKSR3150M0BP) ou Production (ICA KKKSR2191M0AP et composantes KKKSR2171M0AP a KKKSR2197M0AP), frequence Mensuelle, puis icone Excel. L'ICA EDEN est en base 2013 (moyenne janvier a mars 2017 = 98,8 = valeur 2017T1 du bulletin). Attention : en consultation multi series, EDEN decale les entetes de colonnes ; les series ont donc ete exportees une par une."
+  },
+  {
+    "fichier": "02_BCEAO/BCEAO_EDEN_Senegal_annuel_inclusion_IHPC.csv",
+    "variables": [
+      "mm_cpt_ouv",
+      "mm_cpt_act",
+      "ihpc"
+    ],
+    "source": "BCEAO",
+    "titre": "Base EDEN BCEAO, series annuelles Senegal (inclusion financiere, IHPC, valeur ajoutee du commerce)",
+    "url_fichier": "https://edenpub.bceao.int/exportRapport.php (POST parametre=A*<code>*2015*2025*0*c et export=xcl)",
+    "url_page": "https://edenpub.bceao.int/",
+    "periode_couverte": "2015 a 2024 selon les series (2025 vide)",
+    "description": "Export EDEN des 30 indicateurs d'inclusion financiere Senegal (sous secteur SF4), de l'IHPC annuel et de la valeur ajoutee du commerce.",
+    "remarques": "Chemin : Secteur monetaire et financier, sous secteur SF4 (inclusion financiere), frequence Annuelle. KKKSF4009A0AP et KKKSF4021A0AP = taux d'utilisation des services de monnaie electronique (comptes ouverts ou actifs rapportes a la population adulte), seule source BCEAO trouvee pour 2017 et 2018 au niveau Senegal. EDEN ne contient pas les valeurs de transactions de monnaie electronique (cash-in, cash-out, transferts)."
+  },
+  {
+    "fichier": null,
+    "variables": [
+      "mm_tot_val",
+      "mm_cashin_val",
+      "mm_cashout_val",
+      "mm_intl_val",
+      "mm_fact_val",
+      "mm_cpt_ouv",
+      "mm_cpt_act"
+    ],
+    "source": "BCEAO",
+    "titre": "Rapports annuels SFN 2017 et 2018 (valeurs Senegal)",
+    "url_fichier": null,
+    "url_page": "https://www.bceao.int/fr/publications/rapport-annuel-sur-les-services-financiers-numeriques-dans-luemoa-2019",
+    "periode_couverte": "2017 et 2018",
+    "description": "Valeurs Senegal 2017 et 2018 non trouvees sous forme de tableau.",
+    "remarques": "Les rapports SFN UEMOA 2017 et 2018 sont cites par la presse (osiris.sn : 7,1 millions de comptes au Senegal en 2018) mais aucun PDF n'est en ligne sur bceao.int (pages 404) ni sur FinDev Gateway. Le rapport SFN 2019 ne donne pour 2015 a 2018 que des totaux UEMOA. Approximations possibles, non tirees de tableaux : valeur 2018 deduite de la hausse de 71,3% en 2019 (texte p. 13 du rapport 2019) ; comptes 2018 deduits de la hausse de 324,15% entre 2018 et 2022 ; TUSME EDEN 2017 et 2018."
+  },
+  {
+    "fichier": null,
+    "variables": [
+      "mm_cashin_val",
+      "mm_cashout_val",
+      "mm_intl_val",
+      "mm_fact_val"
+    ],
+    "source": "BCEAO",
+    "titre": "Ventilation 2019 tous emetteurs et transferts internationaux 2019 et 2020",
+    "url_fichier": null,
+    "url_page": "https://www.bceao.int/fr/publications/rapport-annuel-sur-les-services-financiers-numeriques-dans-luemoa-2019",
+    "periode_couverte": "2019 et 2020",
+    "description": "Cash-in, cash-out et factures 2019 Senegal disponibles seulement pour le perimetre EME ; transferts hors UEMOA recus non publies par pays pour 2019 et ND pour le Senegal en 2020.",
+    "remarques": "Voir les lignes _EME du CSV BCEAO_SFN_Senegal_extrait.csv (annexe 3 du rapport 2019). mm_intl_val disponible de 2021 a 2024 seulement."
+  },
+  {
+    "fichier": null,
+    "variables": [
+      "mm_tot_val",
+      "mm_cashin_val",
+      "mm_cashout_val",
+      "mm_intl_val",
+      "mm_fact_val",
+      "mm_cpt_ouv",
+      "mm_cpt_act"
+    ],
+    "source": "BCEAO",
+    "titre": "Rapport SFN 2025",
+    "url_fichier": null,
+    "url_page": "https://www.bceao.int/fr/publications/rapport-annuel-sur-les-services-financiers-numeriques-dans-luemoa-2025",
+    "periode_couverte": "2025",
+    "description": "Le rapport SFN au titre de 2025 n'est pas encore publie (page BCEAO en 404 au 05/10/2026).",
+    "remarques": "Le rapport 2024 est paru en mars 2026 ; le millesime 2025 devrait suivre vers debut 2027."
+  },
+  {
+    "fichier": null,
+    "variables": [
+      "mm_fact_val"
+    ],
+    "source": "BCEAO",
+    "titre": "Paiement de factures et achat de credit, definition",
+    "url_fichier": null,
+    "url_page": null,
+    "periode_couverte": "2020 a 2024",
+    "description": "Pas de rubrique isolee paiement de factures dans les annexes 2020 a 2024.",
+    "remarques": "Les annexes donnent Paiements (factures, marchands, administrations confondus) et Achat de credit telephonique. Construire mm_fact_val = mm_paiements_val + mm_credit_tel_val, ou retenir seulement une des deux, selon la definition voulue."
+  }
+]

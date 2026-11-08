@@ -1,0 +1,13 @@
+# RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Secrets (clés API) — ne jamais versionner
+.Renviron
+**/.Renviron
+
+# Déploiement shinyapps.io
+rsconnect/
+**/rsconnect/

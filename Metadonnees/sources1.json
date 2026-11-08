@@ -1,0 +1,1592 @@
+[
+  {
+    "fichier": "01_ANSD/secteur_informel/ANSD_ERI-ESI_Senegal_2017_rapport_final.pdf",
+    "variables": [
+      "ca_inf",
+      "prod_inf",
+      "va_inf",
+      "rm_inf",
+      "ca_inf_br",
+      "va_inf_br",
+      "ancrage_source",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, ERI-ESI 2017 (enquête)",
+    "titre": "Enquête régionale intégrée sur l'emploi et le secteur informel (ERI-ESI) au Sénégal, 2017 : rapport final",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/Senegal_ERI-ESI_RapportFinal_0.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/autres-rapports-denquetes-sur-lemploi-et-le-travail",
+    "periode_couverte": "2017 (année de référence de l'enquête)",
+    "description": "Rapport final de l'ERI-ESI 2017. Seule mesure directe par enquête du chiffre d'affaires, de la production, de la valeur ajoutée et du revenu mixte des unités de production informelles (UPI) non agricoles.",
+    "remarques": "Chapitre 12. Tableau 12.5 (page PDF 181) : CA annuel 9 998 803,2 ; production 4 728 533,8 ; VA 3 749 419,0 ; revenu mixte 3 549 753,6 millions FCFA, par milieu (Dakar urbain, autres urbains, rural) et secteur (secondaire, commerce, services). Tableau 12.9 (page PDF 184) : structure par branche (parts de CA, production, VA, taux de VA, décomposition de la VA). Taux d'emploi informel 96,4% (95,4% hors agriculture), section 5.4 (page PDF 80 environ). Ancrage de type enquête, une seule année. Consommation de capital fixe supposée nulle."
+  },
+  {
+    "fichier": "01_ANSD/secteur_informel/ANSD_ERI-ESI_2017_agregats_secteur_informel.csv",
+    "variables": [
+      "ca_inf",
+      "prod_inf",
+      "va_inf",
+      "rm_inf",
+      "ca_inf_br",
+      "va_inf_br"
+    ],
+    "source": "ANSD, ERI-ESI 2017 (enquête)",
+    "titre": "Extraction CSV des tableaux 12.5 et 12.9 du rapport ERI-ESI 2017",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/Senegal_ERI-ESI_RapportFinal_0.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/autres-rapports-denquetes-sur-lemploi-et-le-travail",
+    "periode_couverte": "2017",
+    "description": "Fichier dérivé construit localement par extraction automatique (non diffusé tel quel par l'ANSD) ; url_fichier pointe vers le fichier ANSD d'origine. Agrégats en millions FCFA par zone et secteur (Tableau 12.5) et parts par branche en % (Tableau 12.9).",
+    "remarques": "Tableau 12.5 : 4 zones x (Secondaire, Commerce, Service, Total) x 4 agrégats (ca_inf, prod_inf, va_inf, rm_inf). Tableau 12.9 : parts par branche ; le CA par branche s'obtient en multipliant la part par le CA total. Totaux vérifiés contre le texte du chapitre 12."
+  },
+  {
+    "fichier": "01_ANSD/comptes_nationaux_annuels/ANSD_CN_renoves_base2021_note_synthetique.pdf",
+    "variables": [
+      "va_inf",
+      "ancrage_source"
+    ],
+    "source": "ANSD, comptes nationaux annuels",
+    "titre": "Note synthétique des résultats des comptes nationaux rénovés, année de base 2021",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2025-11/Note-synthetique-resultats-comptes-nationaux-renoves-base2021.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/comptes-nationaux-du-senegal-base-2021",
+    "periode_couverte": "2021 (année de base), comparaison base 2014 et base 2021",
+    "description": "Note de résultats du changement d'année de base (2014 vers 2021). Donne la VA des ménages producteurs informels dans les comptes nationaux 2021.",
+    "remarques": "Tableau 1 page 13 : répartition du PIB par secteur institutionnel 2021, ligne 'dont Informel' 6 123 618 (base 2014) et 7 603 839 millions FCFA (base 2021), révision +24,2%. Sources mobilisées pour l'informel : ERI-ESI 2017, ENSIS, ENTRANS, EHCVM 2021. Ancrage de type comptes nationaux."
+  },
+  {
+    "fichier": "01_ANSD/comptes_nationaux_annuels/ANSD_CN_provisoires_2025_tableaux_base2021_MAJ1.xlsx",
+    "variables": [
+      "va_inf_br",
+      "defl_va_com"
+    ],
+    "source": "ANSD, comptes nationaux annuels",
+    "titre": "Comptes nationaux provisoires 2025, base 2021 : tableaux de publication (MAJ 1 du 22/09/2026)",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-09/Tableaux-publication_CN2025_provisoire_MAJ_1_22-09-2026.xlsx",
+    "url_page": "https://www.ansd.sn/Indicateur/comptes-nationaux-du-senegal-base-2021",
+    "periode_couverte": "2014 à 2025 (annuel)",
+    "description": "VA et PIB par branche à prix courants et en volume (prix chaînés 2021), taux de croissance, ressources et emplois de biens et services. 2014 à 2020 rétropolés, 2021 à 2024 semi définitifs ou définitifs, 2025 provisoire.",
+    "remarques": "Feuille PIB_optique_production : branche G00 Commerce (VA courante et en volume), d'où defl_va_com = courant / volume. Aucune ventilation formel / informel."
+  },
+  {
+    "fichier": "01_ANSD/comptes_nationaux_annuels/ANSD_CN_provisoires_2025_base2021_long.csv",
+    "variables": [
+      "va_inf_br",
+      "defl_va_com"
+    ],
+    "source": "ANSD, comptes nationaux annuels",
+    "titre": "Extraction CSV (format long) des tableaux CN provisoires 2025",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-09/Tableaux-publication_CN2025_provisoire_MAJ_1_22-09-2026.xlsx",
+    "url_page": "https://www.ansd.sn/Indicateur/comptes-nationaux-du-senegal-base-2021",
+    "periode_couverte": "2014 à 2025",
+    "description": "Fichier dérivé construit localement par extraction automatique (non diffusé tel quel par l'ANSD) ; url_fichier pointe vers le fichier ANSD d'origine. Colonnes : feuille, tableau, code, libellé, année, valeur.",
+    "remarques": "Unités selon le tableau (millions FCFA ou %)."
+  },
+  {
+    "fichier": "01_ANSD/comptes_nationaux_annuels/ANSD_CN_provisoires_2025_note_analyse.pdf",
+    "variables": [
+      "defl_va_com"
+    ],
+    "source": "ANSD, comptes nationaux annuels",
+    "titre": "Note d'analyse des comptes nationaux provisoires 2025 (base 2021)",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-09/Note_analyse_CN_provisoire_2025_vf_1.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/comptes-nationaux-du-senegal-base-2021",
+    "periode_couverte": "2024 à 2025",
+    "description": "Analyse de la croissance 2025 par secteur et par composante de la demande.",
+    "remarques": "Ne traite pas explicitement du secteur informel."
+  },
+  {
+    "fichier": "01_ANSD/comptes_nationaux_annuels/ANSD_CN_base2021_tableaux_2021_2024_semidef_30-06-2026_cor.xlsx",
+    "variables": [
+      "rm_men",
+      "va_inf_br",
+      "defl_va_com"
+    ],
+    "source": "ANSD, comptes nationaux annuels",
+    "titre": "Comptes nationaux base 2021 : tableaux de publication 2021 à 2024 (version du 30/06/2026 corrigée)",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-08/Tableaux-publication_30_06_2026_Base2021_cor.xlsx",
+    "url_page": "https://www.ansd.sn/Indicateur/comptes-nationaux-du-senegal-base-2021",
+    "periode_couverte": "2021 à 2024 (annuel)",
+    "description": "Agrégats, trois approches du PIB, VA et production par branche, partage de la VA, VA par secteur institutionnel, consommation finale des ménages, TRE 2021 à 2024.",
+    "remarques": "Feuille 'Partage de la VA' : EBE et revenu mixte brut de l'économie (B.2/B.3) et VA par secteur institutionnel (S.14 Ménages : 8 550 384 millions FCFA en 2021, 10 646 804 en 2024). Le revenu mixte des ménages n'y est pas isolé."
+  },
+  {
+    "fichier": "01_ANSD/comptes_nationaux_annuels/ANSD_CN_base2021_semidef_2021_2024_long.csv",
+    "variables": [
+      "rm_men",
+      "va_inf_br"
+    ],
+    "source": "ANSD, comptes nationaux annuels",
+    "titre": "Extraction CSV (format long) des tableaux CN base 2021, 2021 à 2024",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-08/Tableaux-publication_30_06_2026_Base2021_cor.xlsx",
+    "url_page": "https://www.ansd.sn/Indicateur/comptes-nationaux-du-senegal-base-2021",
+    "periode_couverte": "2021 à 2024",
+    "description": "Fichier dérivé construit localement par extraction automatique (non diffusé tel quel par l'ANSD) ; url_fichier pointe vers le fichier ANSD d'origine. Feuilles TRE exclues.",
+    "remarques": ""
+  },
+  {
+    "fichier": "01_ANSD/comptes_nationaux_annuels/ANSD_CN_base2021_note_analyse_semidef_2026-06-30.pdf",
+    "variables": [
+      "rm_men",
+      "va_inf_br"
+    ],
+    "source": "ANSD, comptes nationaux annuels",
+    "titre": "Note d'analyse des comptes nationaux base 2021 (publication du 30/06/2026)",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-07/Note-analyse_CN-SEMI_VF_30_06_2026.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/comptes-nationaux-du-senegal-base-2021",
+    "periode_couverte": "2021 à 2024",
+    "description": "Note d'analyse des comptes définitifs et semi définitifs en base 2021.",
+    "remarques": ""
+  },
+  {
+    "fichier": "01_ANSD/comptes_nationaux_annuels/ANSD_CN_base2021_retropoles_2014_2021_MAJ1_2026-09-26.xlsx",
+    "variables": [
+      "defl_va_com",
+      "va_inf_br"
+    ],
+    "source": "ANSD, comptes nationaux annuels",
+    "titre": "Tableaux de publication 2014 à 2025, base 2021 (MAJ 1 du 26/09/2026)",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-09/Tableaux-publication_2014_2025_Base2021_publication_MAJ_1_26-09-2026.xlsx",
+    "url_page": "https://www.ansd.sn/Indicateur/comptes-nationaux-du-senegal-base-2021",
+    "periode_couverte": "2014 à 2021 constaté dans la plupart des feuilles (malgré le titre) ; feuille Echanges extérieurs jusqu'en 2025",
+    "description": "Séries rétropolées en base 2021 : agrégats, VA et production par branche (courant, volume, indices de prix base 100 en 2021), consommation finale des ménages par fonction, FBCF, échanges extérieurs.",
+    "remarques": "Feuille 'Valeur ajoutée' : indices des prix des VA par branche (dont G00 commerce), base 100 en 2021. Fichier renommé localement (nom d'origine : Tableaux-publication_2014_2025_Base2021_publication_MAJ_1_26-09-2026.xlsx)."
+  },
+  {
+    "fichier": "01_ANSD/comptes_nationaux_annuels/ANSD_CN_base2021_retropoles_2014_2021_long.csv",
+    "variables": [
+      "defl_va_com",
+      "va_inf_br"
+    ],
+    "source": "ANSD, comptes nationaux annuels",
+    "titre": "Extraction CSV (format long) des séries rétropolées base 2021",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-09/Tableaux-publication_2014_2025_Base2021_publication_MAJ_1_26-09-2026.xlsx",
+    "url_page": "https://www.ansd.sn/Indicateur/comptes-nationaux-du-senegal-base-2021",
+    "periode_couverte": "2014 à 2021",
+    "description": "Fichier dérivé construit localement par extraction automatique (non diffusé tel quel par l'ANSD) ; url_fichier pointe vers le fichier ANSD d'origine. ",
+    "remarques": ""
+  },
+  {
+    "fichier": "01_ANSD/comptes_nationaux_annuels/ANSD_CN_retropolation_base2021_note_analyse_MAJ1.pdf",
+    "variables": [
+      "va_inf",
+      "ancrage_source"
+    ],
+    "source": "ANSD, comptes nationaux annuels",
+    "titre": "Note d'analyse des comptes nationaux rétropolés de 2014 à 2020 selon l'année de base 2021 (MAJ 1)",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-09/Note_Analyse_Retropolation_MAJ-1_26-09-2026.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/comptes-nationaux-du-senegal-base-2021",
+    "periode_couverte": "2014 à 2021",
+    "description": "Méthodologie et résultats de la rétropolation des comptes en base 2021.",
+    "remarques": "Indique que la rétropolation est faite par mode de production (informel, APU, sociétés non financières, sociétés financières, ISBLSM, ménages purs), mais la série rétropolée de VA informelle n'est pas publiée dans les tableaux."
+  },
+  {
+    "fichier": "01_ANSD/comptes_nationaux_annuels/ANSD_CSI_synthese_comptes_secteurs_2022.xlsx",
+    "variables": [
+      "rm_men",
+      "va_inf"
+    ],
+    "source": "ANSD, comptes nationaux annuels",
+    "titre": "Synthèse des comptes des secteurs institutionnels 2014 à 2022 (TCEI, base 2014)",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2024-12/Synthese-compte-secteur_2022_24_12_2024_0.xlsx",
+    "url_page": "https://www.ansd.sn/Indicateur/comptes-des-secteurs-institutionnels-et-tableaux-des-comptes-economiques-integres",
+    "periode_couverte": "2014 à 2022 (annuel)",
+    "description": "Comptes non financiers par secteur institutionnel (S1, S11 à S15) et synthèse : partage du PIB par secteur, optique production et revenu.",
+    "remarques": "Feuille 'Synthèse' ligne 22 : 'Revenu mixte des ménages' 2014 à 2022 (5 232 751 millions FCFA en 2017, 7 072 375 en 2022). Feuille 0S1004 : compte des ménages (production, VA, B.2/B.3). Base 2014, non raccordée à la base 2021."
+  },
+  {
+    "fichier": "01_ANSD/comptes_nationaux_annuels/ANSD_CSI_base2014_2014_2022_long.csv",
+    "variables": [
+      "rm_men"
+    ],
+    "source": "ANSD, comptes nationaux annuels",
+    "titre": "Extraction CSV (format long) des comptes des secteurs institutionnels",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2024-12/Synthese-compte-secteur_2022_24_12_2024_0.xlsx",
+    "url_page": "https://www.ansd.sn/Indicateur/comptes-des-secteurs-institutionnels-et-tableaux-des-comptes-economiques-integres",
+    "periode_couverte": "2014 à 2022",
+    "description": "Fichier dérivé construit localement par extraction automatique (non diffusé tel quel par l'ANSD) ; url_fichier pointe vers le fichier ANSD d'origine. ",
+    "remarques": ""
+  },
+  {
+    "fichier": "01_ANSD/comptes_nationaux_annuels/ANSD_CSI_note_analyse_2021_2022.pdf",
+    "variables": [
+      "rm_men"
+    ],
+    "source": "ANSD, comptes nationaux annuels",
+    "titre": "Note d'analyse des comptes des secteurs institutionnels 2021 et 2022",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2024-12/Note-nalyse-comptes-secteurs%20institutionnels_20212022.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/comptes-des-secteurs-institutionnels-et-tableaux-des-comptes-economiques-integres",
+    "periode_couverte": "2017 à 2022",
+    "description": "Analyse des comptes par secteur institutionnel (base 2014).",
+    "remarques": "Page 6 : le revenu mixte des ménages représente 44,8% de la VA en 2022 (45,7% en 2021), défini en note 2 comme le revenu du capital et du travail des entrepreneurs de l'informel."
+  },
+  {
+    "fichier": "01_ANSD/comptes_nationaux_annuels/ANSD_CN_annuel_variables_cles.csv",
+    "variables": [
+      "defl_va_com",
+      "rm_men",
+      "va_inf"
+    ],
+    "source": "ANSD, comptes nationaux annuels",
+    "titre": "Tableau de synthèse des variables annuelles clés (construit)",
+    "url_fichier": null,
+    "url_page": "https://www.ansd.sn/Indicateur/comptes-nationaux-du-senegal-base-2021",
+    "periode_couverte": "2014 à 2025 selon la variable",
+    "description": "Fichier construit à partir des fichiers ANSD ci dessus : VA commerce courante et en volume et déflateur (2014 à 2025, base 2021), revenu mixte des ménages (2014 à 2022, base 2014), VA ménages S.14 (2021 à 2024, base 2021), VA informelle 2021 (bases 2014 et 2021).",
+    "remarques": "defl_va_com est calculé (courant / volume x 100, indice 2021 = 100), il n'est pas publié tel quel. La colonne fichier_source indique l'origine de chaque valeur. url_fichier nul car fichier multi sources."
+  },
+  {
+    "fichier": "01_ANSD/comptes_nationaux_annuels/ANSD_CN_base2014_edition_1999_2023.xlsx",
+    "variables": [
+      "defl_va_com",
+      "va_inf_br"
+    ],
+    "source": "ANSD, comptes nationaux annuels",
+    "titre": "Comptes nationaux, édition 1999 à 2023 (base 2014)",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2024-12/CN_Edition_1999_2023_vf.xlsx",
+    "url_page": "https://www.ansd.sn/Indicateur/comptes-nationaux-du-senegal-base-2021",
+    "periode_couverte": "1999 à 2023",
+    "description": "Ancienne série en base 2014 : VA par branche à prix courants et constants.",
+    "remarques": "Remplacée par la base 2021 ; utile pour comparer avec l'ancienne base (lignes 'N00 COMMERCE', rangées 93 et 156 de la feuille Edition)."
+  },
+  {
+    "fichier": "01_ANSD/comptes_nationaux_annuels/ANSD_TRE_valeur_2014_2023.xlsx",
+    "variables": [
+      "va_inf_br"
+    ],
+    "source": "ANSD, comptes nationaux annuels",
+    "titre": "Tableaux des ressources et des emplois en valeur, 2014 à 2023 (base 2014)",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2024-12/TRE_en_valeur_2014-2023_0.xlsx",
+    "url_page": "https://www.ansd.sn/Indicateur/tableau-des-ressources-et-des-emplois-tre",
+    "periode_couverte": "2014 à 2023 (une feuille par année)",
+    "description": "TRE par branche et produit, base 2014.",
+    "remarques": "Ligne 78 de chaque feuille : EBE / revenu mixte par branche. Pas de colonne formel / informel."
+  },
+  {
+    "fichier": "01_ANSD/comptes_nationaux_trimestriels/ANSD_CNT_resultats_base2021.xlsx",
+    "variables": [
+      "pib_trim",
+      "va_com_trim",
+      "va_serv_trim",
+      "va_ind_trim",
+      "conso_men_trim"
+    ],
+    "source": "ANSD, comptes nationaux trimestriels",
+    "titre": "Comptes nationaux trimestriels base 2021 : résultats (fichier Resultats_vf, publication du T2 2026)",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-10/Resultats_vf.xlsx",
+    "url_page": "https://www.ansd.sn/Indicateur/produit-interieur-brut-trimestriel-base-2021",
+    "periode_couverte": "2014T1 à 2026T2",
+    "description": "PIB et VA par branche (nomenclature détaillée) en volume CVS et en valeur courante brute ; PIB optique emplois (consommation finale des ménages, FBCF, échanges) en volume CVS et en valeur brute. Milliards FCFA.",
+    "remarques": "Feuilles 'PIB Constant CVS' et 'PIB courant brut' : lignes 'Secteur secondaire' (va_ind_trim), 'Secteur tertiaire' (va_serv_trim), G00 Commerce (va_com_trim), 'Produit intérieur brut' (pib_trim). Feuilles 'Emplois Constant CVS' et 'Emplois Courant_brut' : 'Consommation finale des ménages' (conso_men_trim)."
+  },
+  {
+    "fichier": "01_ANSD/comptes_nationaux_trimestriels/ANSD_CNT_base2021_long.csv",
+    "variables": [
+      "pib_trim",
+      "va_com_trim",
+      "va_serv_trim",
+      "va_ind_trim",
+      "conso_men_trim"
+    ],
+    "source": "ANSD, comptes nationaux trimestriels",
+    "titre": "Extraction CSV (format long) des comptes trimestriels base 2021",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-10/Resultats_vf.xlsx",
+    "url_page": "https://www.ansd.sn/Indicateur/produit-interieur-brut-trimestriel-base-2021",
+    "periode_couverte": "2014T1 à 2026T2",
+    "description": "Fichier dérivé construit localement par extraction automatique (non diffusé tel quel par l'ANSD) ; url_fichier pointe vers le fichier ANSD d'origine. Colonnes : feuille, code, libellé, année, trimestre, période, valeur (milliards FCFA).",
+    "remarques": "50 trimestres vérifiés pour G00, PIB et consommation finale des ménages."
+  },
+  {
+    "fichier": "01_ANSD/comptes_nationaux_trimestriels/ANSD_CNT_rapport_T4_2025.pdf",
+    "variables": [
+      "pib_trim",
+      "va_com_trim",
+      "conso_men_trim"
+    ],
+    "source": "ANSD, comptes nationaux trimestriels",
+    "titre": "Rapport sur le PIB trimestriel, quatrième trimestre 2025",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-03/Rapport%20T4%202025_30_03_2025_22h_20_pp.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/produit-interieur-brut-trimestriel-base-2021",
+    "periode_couverte": "2025T4",
+    "description": "Note d'analyse du PIB trimestriel du T4 2025.",
+    "remarques": "Les notes trimestrielles antérieures (2017 à 2025) restent en ligne sur la même page ; non téléchargées car le fichier Excel couvre toute la série."
+  },
+  {
+    "fichier": "01_ANSD/comptes_nationaux_trimestriels/ANSD_CNT_rapport_T2_2026.pdf",
+    "variables": [
+      "pib_trim"
+    ],
+    "source": "ANSD, comptes nationaux trimestriels",
+    "titre": "Rapport sur le PIB trimestriel, deuxième trimestre 2026",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-10/Rapport_T2_2026_vf.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/produit-interieur-brut-trimestriel-base-2021",
+    "periode_couverte": "2026T2",
+    "description": "Dernière note du PIB trimestriel publiée.",
+    "remarques": ""
+  },
+  {
+    "fichier": "01_ANSD/ihpc/ANSD_IHPC_base2023_evolutions_series.xlsx",
+    "variables": [
+      "ihpc",
+      "ihpc_alim",
+      "ihpc_serv"
+    ],
+    "source": "ANSD, indice harmonisé des prix à la consommation",
+    "titre": "IHPC base 2023 : évolutions (séries des divisions, groupes et nomenclatures secondaires)",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-09/IHPC_base2023_EVOLUTIONS_DMIS%20%285%29.xlsx",
+    "url_page": "https://www.ansd.sn/Indicateur/indice-harmonise-des-prix-la-consommation-ihpc-base-100-en-2023",
+    "periode_couverte": "1998M1 à 2026M8 (divisions), 2000M1 à 2026M8 (nomenclatures secondaires), 2008M1 à 2026M8 (groupes)",
+    "description": "Séries mensuelles de l'IHPC national, base 100 en 2023 (séries rétropolées), par division COICOP, groupe et nomenclature secondaire (produits frais, énergie, services, local, importé, etc.).",
+    "remarques": "Feuille DIV : ligne 'Global' (ihpc) et division 01 'Produits alimentaires et boissons non alcoolisées' (ihpc_alim). Feuille 'Nom Sec' : ligne 'Services' (ihpc_serv)."
+  },
+  {
+    "fichier": "01_ANSD/ihpc/ANSD_IHPC_cles_mensuel_2017_2026.csv",
+    "variables": [
+      "ihpc",
+      "ihpc_alim",
+      "ihpc_serv"
+    ],
+    "source": "ANSD, indice harmonisé des prix à la consommation",
+    "titre": "Extraction CSV des trois séries IHPC clés",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-09/IHPC_base2023_EVOLUTIONS_DMIS%20%285%29.xlsx",
+    "url_page": "https://www.ansd.sn/Indicateur/indice-harmonise-des-prix-la-consommation-ihpc-base-100-en-2023",
+    "periode_couverte": "2017M1 à 2026M8 (116 mois)",
+    "description": "Fichier dérivé construit localement par extraction automatique (non diffusé tel quel par l'ANSD) ; url_fichier pointe vers le fichier ANSD d'origine. IHPC global, alimentation (division 01) et services (nomenclature secondaire), base 100 en 2023.",
+    "remarques": ""
+  },
+  {
+    "fichier": "01_ANSD/ihpc/ANSD_IHPC_base2023_series_long.csv",
+    "variables": [
+      "ihpc",
+      "ihpc_alim",
+      "ihpc_serv"
+    ],
+    "source": "ANSD, indice harmonisé des prix à la consommation",
+    "titre": "Extraction CSV (format long) des séries IHPC du fichier Excel",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-09/IHPC_base2023_EVOLUTIONS_DMIS%20%285%29.xlsx",
+    "url_page": "https://www.ansd.sn/Indicateur/indice-harmonise-des-prix-la-consommation-ihpc-base-100-en-2023",
+    "periode_couverte": "1998M1 à 2026M8",
+    "description": "Fichier dérivé construit localement par extraction automatique (non diffusé tel quel par l'ANSD) ; url_fichier pointe vers le fichier ANSD d'origine. Feuilles DIV, Nom Sec et IND_GRP.",
+    "remarques": ""
+  },
+  {
+    "fichier": "01_ANSD/ihpc/ANSD_IHPC_base2023_bulletin_2026-08.pdf",
+    "variables": [
+      "ihpc",
+      "ihpc_alim",
+      "ihpc_serv"
+    ],
+    "source": "ANSD, indice harmonisé des prix à la consommation",
+    "titre": "Indice harmonisé des prix à la consommation, base 2023, août 2026",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-09/IHPC_base2023_Aou%CC%82t%2026_.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/indice-harmonise-des-prix-la-consommation-ihpc-base-100-en-2023",
+    "periode_couverte": "2026M8",
+    "description": "Dernier bulletin mensuel IHPC publié.",
+    "remarques": ""
+  },
+  {
+    "fichier": "01_ANSD/ihpc/ANSD_IHPC_base2023_bulletin_2025-12.pdf",
+    "variables": [
+      "ihpc",
+      "ihpc_alim",
+      "ihpc_serv"
+    ],
+    "source": "ANSD, indice harmonisé des prix à la consommation",
+    "titre": "Indice harmonisé des prix à la consommation, base 2023, décembre 2025",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-05/IHPC_base2023_DEC-25_Modif.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/indice-harmonise-des-prix-la-consommation-ihpc-base-100-en-2023",
+    "periode_couverte": "2025M12",
+    "description": "Bulletin de décembre 2025 (fin de la période d'étude).",
+    "remarques": ""
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2017_T1.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), premier trimestre 2017",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/Rapport%20ENES%202017%20TRIM%201.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2017T1",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2017_T2.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), deuxième trimestre 2017",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/Rapport%20ENES%202017%20TRIM%202_mise_rectifie.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2017T2",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2017_T3.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), troisième trimestre 2017",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/Rapport_ENES_TRIM3_2017.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2017T3",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2017_T4.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), quatrième trimestre 2017",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/Rapport_ENES_TRIM4_2017_26_03_Vf.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2017T4",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2018_T1.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), premier trimestre 2018",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/rapport_ENES_TRIM1_2018_%20revu%20REC_Apres%20Obs%20DG%202.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2018T1",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2018_T2.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), deuxième trimestre 2018",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/rapport_trim2_Vf_dsds_%20Vf2%20REC_Apres%20Obs%20DG%202.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2018T2",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2018_T3.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), troisième trimestre 2018",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/rapp_enes_t3_2018_VP%201%20REC_Apres%20Obs%20DG%202.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2018T3",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2018_T4.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), quatrième trimestre 2018",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/rapp_enes_t4_2018_vf%20REC_Apres%20Obs%20DG%201%202.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2018T4",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2019_T1.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), premier trimestre 2019",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/Rapport_enes_T1_2019%20VF.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2019T1",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2019_T2.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), deuxième trimestre 2019",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/Rapport_enes_T2_2019%20VF.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2019T2",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2019_T3.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), troisième trimestre 2019",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/Rapport_enes_T3_2019%20VF.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2019T3",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2019_T4.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), quatrième trimestre 2019",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/Rapport_enes_T4_2019%20VF.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2019T4",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2020_T4.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), quatrième trimestre 2020",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/rapp_enes_T4_2020_Vf.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2020T4",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2021_T1.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), premier trimestre 2021",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/rapp_enes_T1_2021%20vf.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2021T1",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2021_T2.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), deuxième trimestre 2021",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/rapp_enes_T2_2021_vf.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2021T2",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2021_T3.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), troisième trimestre 2021",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/rapp_enes_T3_2021_vf.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2021T3",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2021_T4.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), quatrième trimestre 2021",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/rapp_enes_T4_2021_V2.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2021T4",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2022_T1.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), premier trimestre 2022",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2023-04/Rapport%20ENES%20T1-2022.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2022T1",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "PDF composé d'images (texte non extractible), contenu sur l'informalité non vérifié automatiquement. Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2022_T2.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), deuxième trimestre 2022",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2023-04/Rapport%20ENES%20T2-2022.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2022T2",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2022_T3.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), troisième trimestre 2022",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2023-04/Rapport%20ENES%20T3-2022.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2022T3",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2022_T4.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), quatrième trimestre 2022",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2023-05/Rapport%20ENES%20T4%202022.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2022T4",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "PDF composé d'images (texte non extractible), contenu sur l'informalité non vérifié automatiquement. Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2023_T1.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), premier trimestre 2023",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2023-12/rapp_enes_T1_2023.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2023T1",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2023_T2.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), deuxième trimestre 2023",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2023-12/rapp_enes_T2_2023.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2023T2",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2023_T3.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), troisième trimestre 2023",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2023-12/rapp_enes_T3_2023.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2023T3",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2023_T4_note.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), quatrième trimestre 2023 : note d'informations",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2024-05/Note%20d%27informations%20ENES%20T4%202023.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2023T4",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2024_T1.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), premier trimestre 2024",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2024-07/Rapport_enes_T1_2024_VF.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2024T1",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2024_T2.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), deuxième trimestre 2024",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2024-09/Rapport_ENES_T2_2024_Vf.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2024T2",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2024_T3.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), troisième trimestre 2024",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2025-01/Rapp_enes_T3_2024_de%CC%81cembre_2024_vf.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2024T3",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2024_T4.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), quatrième trimestre 2024",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2025-03/Rap-ENES_T4_2024.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2024T4",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2025_T1.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), premier trimestre 2025",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2025-06/Rapport%20ENEST12025.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2025T1",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2025_T2.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), deuxième trimestre 2025",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2025-09/Rapport%20ENEST22025.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2025T2",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2025_T3.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), troisième trimestre 2025",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2025-12/Rapport_ENES_T3_2025_Vf.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2025T3",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2025_T4.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), quatrième trimestre 2025",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-03/Rapport_ENES_T4_2025_VF.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2025T4",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2026_T1.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), premier trimestre 2026",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-07/Rapport_ENES_T1_2026_y_obs_ab_integr%2BobsDG_VF%20%281%29.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2026T1",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_ENES_2026_T2.pdf",
+    "variables": [
+      "enes_emp_inf",
+      "enes_tx_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Enquête nationale sur l'emploi au Sénégal (ENES), deuxième trimestre 2026",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-09/Rapport_ENES_T2_2026_version-ok-dssscv.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/enquete-emploi",
+    "periode_couverte": "2026T2",
+    "description": "Note trimestrielle ENES de l'ANSD sur les indicateurs du marché du travail.",
+    "remarques": "Note trimestrielle : population en âge de travailler, taux d'activité, taux d'emploi, chômage, emploi salarié, par milieu et sexe. Aucune mention de l'emploi informel ni du taux d'informalité (recherche du mot 'informel' négative). Utile comme contrôle de l'emploi total."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_SES_2017-2018_chap_Emploi.pdf",
+    "variables": [
+      "enes_emp_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Situation économique et sociale du Sénégal 2017-2018 : chapitre Emploi",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-12/4-SES-2017-2018_Emploi.pdf",
+    "url_page": "https://www.ansd.sn/ses-nationales",
+    "periode_couverte": "2017 à 2018",
+    "description": "Chapitre annuel emploi de la SES nationale.",
+    "remarques": "Pas de taux d'emploi informel trouvé."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_SES_2019_chap_Emploi.pdf",
+    "variables": [
+      "enes_emp_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Situation économique et sociale du Sénégal 2019 : chapitre Emploi",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-04/3-SES-2019_Emploi.pdf",
+    "url_page": "https://www.ansd.sn/ses-nationales",
+    "periode_couverte": "2019",
+    "description": "Chapitre annuel emploi de la SES, synthèse des résultats ENES 2019.",
+    "remarques": "Pas de taux d'emploi informel trouvé."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_SESN_2020-2021_SectionB_Emploi-revenu.pdf",
+    "variables": [
+      "enes_emp_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Situation économique et sociale du Sénégal 2020-2021 : section B Emploi et revenu",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2024-02/Section-B_Emploi-revenu_SESN2020-2021-rev.pdf",
+    "url_page": "https://www.ansd.sn/ses-nationales",
+    "periode_couverte": "2019 à 2021",
+    "description": "Section emploi et revenus de la SES 2020-2021.",
+    "remarques": "Tableau IV.8 (page PDF 13) : nombre d'employés dans les entreprises formelles 2019 à 2021 (complément formel, pas d'emploi informel)."
+  },
+  {
+    "fichier": "01_ANSD/emploi_enes/ANSD_SESN_2022-2023_SectionB_Emploi-revenu.pdf",
+    "variables": [
+      "enes_emp_inf"
+    ],
+    "source": "ANSD, Enquête nationale sur l'emploi au Sénégal (ENES)",
+    "titre": "Situation économique et sociale du Sénégal 2022-2023 : section B Emploi et revenu",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2025-02/Section-B_Emploi-revenu_SESN2022-2023.pdf",
+    "url_page": "https://www.ansd.sn/ses-nationales",
+    "periode_couverte": "2021 à 2023",
+    "description": "Section emploi et revenus de la SES 2022-2023.",
+    "remarques": "Section IV.4 (page PDF 10) : emploi dans le secteur formel 2021 à 2023, Tableau IV.8."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2017-04.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, avril 2017",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/bulletin%20mensuel%20AVRIL%202017.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "janvier à avril 2017, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2017-08.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, août 2017",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/bulletin%20mensuel%20AOT%202017%20VF.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "mai à août 2017, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2017-12.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, décembre 2017",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/bulletin%20mensuel%20DEC17.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "septembre à décembre 2017, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2018-04.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, avril 2018",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/bulletin%20mensuel%20AVRIL%202018.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "janvier à avril 2018, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2018-08.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, août 2018",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/bulletin%20mensuel%20AOUT%202018.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "mai à août 2018, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2018-12.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, décembre 2018",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/bulletin%20mensuel%20DECEMBRE%202018.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "septembre à décembre 2018, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2019-04.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, avril 2019",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/bulletin%20mensuel%20AVRIL%202019.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "janvier à avril 2019, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2019-08.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, août 2019",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/bulletin%20mensuel%20AOUT%202019%202.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "mai à août 2019, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2019-12.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, décembre 2019",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/BULLETIN%20MENSUEL%20DECEMBRE%202019.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "septembre à décembre 2019, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2020-04.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, avril 2020",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/bulletin%20mensuel%20AVRIL%202020_VAL_BEE_compressed2.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "janvier à avril 2020, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2020-08.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, août 2020",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/bulletin%20mensuel%20AOUT%202020.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "mai à août 2020, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2020-12.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, décembre 2020",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/bulletin%20mensuel%20DECEMBRE%202020.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "septembre à décembre 2020, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2021-04.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, avril 2021",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/BULLETIN%20MENSUEL%20AVRIL%202021_valide_DSECN.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "janvier à avril 2021, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2021-08.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, août 2021",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/BMSCE%20AOUT%202021_OBS%20BEE_DSECN.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "mai à août 2021, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2021-12.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, décembre 2021",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/BMSCE%20DEC%202021%201.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "septembre à décembre 2021, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2022-04.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, avril 2022",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/BMSCE%20AVRIL%202022%20OBS%20DSECN.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "janvier à avril 2022, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2022-08.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, août 2022",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2022-11/BMSCE%20AOUT2022_Corr1_0.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "mai à août 2022, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2022-12.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, décembre 2022",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2023-02/BMSCE%20DECEMBRE%202022%201.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "septembre à décembre 2022, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2023-04.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, avril 2023",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2023-06/BMSCE%20AVRIL%202023%20BEE%20vf_0.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "janvier à avril 2023, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2023-08.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, août 2023",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2023-10/BMSCE_08_23_VF.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "mai à août 2023, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2023-12.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, décembre 2023",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2024-02/BMSCE_DEC_2023.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "septembre à décembre 2023, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2024-04.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, avril 2024",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2024-07/BMSCE_AVRIL_2024.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "janvier à avril 2024, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2024-08.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, août 2024",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2025-01/BMSCE_AOUT_2024maj.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "mai à août 2024, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2024-12.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, décembre 2024",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2025-01/BMSCE_DEC_2024.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "septembre à décembre 2024, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2025-04.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, avril 2025",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2025-06/BMSCE_25_AVRIL_BEE_DSC_DSECN.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "janvier à avril 2025, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2025-08.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, août 2025",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2025-10/BMSCE_AOUT_2025Correction.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "mai à août 2025, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2025-12.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, décembre 2025",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-06/BMSCE_Dec_2025.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "septembre à décembre 2025, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_BMSCE_2026-07.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Bulletin mensuel des statistiques du commerce extérieur, juillet 2026",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-09/BMSCE_JUILLET_2026.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "avril à juillet 2026, plus le même mois de l'année précédente",
+    "description": "Bulletin mensuel du commerce extérieur. Un bulletin sur quatre a été téléchargé : chaque bulletin donne les 4 derniers mois, ce qui couvre tous les mois de 2017 à 2025.",
+    "remarques": "Tableau 'Statistiques mensuelles des importations par groupe d'utilisation : Valeur CAF (millions de FCFA)' (Tableau 7 dans les éditions récentes, page 10 ou 11) : ligne 'PRODUITS FINIS DESTINES A LA CONSOMMATION'."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_imports_groupe_utilisation_mensuel_extrait_BMSCE.csv",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Extraction CSV des importations mensuelles par groupe d'utilisation (valeur CAF)",
+    "url_fichier": null,
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "2017M1 à 2025M12 complet, plus 2016M4, 2016M8, 2016M12 et 2026M4 à 2026M7",
+    "description": "Fichier construit par extraction automatique (pdfplumber) du tableau des importations par groupe d'utilisation des 28 bulletins BMSCE téléchargés. Pour chaque mois, la valeur retenue est celle du bulletin le plus récent qui la contient (valeur éventuellement révisée).",
+    "remarques": "imp_conso = groupe 'PRODUITS FINIS DESTINES A LA CONSOMMATION', millions FCFA CAF. La colonne fichier_source indique le bulletin d'origine. url_fichier nul car fichier multi sources. Contrôle visuel effectué sur plusieurs mois (ex. décembre 2025 : 72 638 ; total 544 757)."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_importations_produits_valeur_volume_2010-01_2024-02.xlsx",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Importations des produits (valeur et volume), janvier 2010 à février 2024",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2024-04/Importations%20des%20produits%20%28valeur%20et%20volume%29%2C%20janv2010%20-%20fevr2024.xlsx",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "2010M1 à 2024M2",
+    "description": "Importations mensuelles par chapitre SH2, en valeur en douane et en poids net.",
+    "remarques": "Permet de construire un agrégat de biens de consommation par chapitres SH ; pas de groupe d'utilisation."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_commerce_exterieur_imports_exports_2010-01_2026-02.xlsx",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Importations et exportations par partenaire, janvier 2010 à février 2026",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-04/imports_exports_janv2010-fevr2026_MAJ.xlsx",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-du-commerce-exterieur",
+    "periode_couverte": "2010M1 à 2026M2",
+    "description": "Importations et exportations mensuelles (tous produits) par pays partenaire.",
+    "remarques": "Total des importations utile comme contrôle ; pas de ventilation par usage."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_NACE_2025.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Note d'analyse du commerce extérieur (NACE), édition 2025",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-07/NACE_2025_VF_OK.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/note-danalyse-du-commerce-exterieur-nace",
+    "periode_couverte": "2021 à 2025 (annuel)",
+    "description": "Note annuelle du commerce extérieur.",
+    "remarques": "Tableau 16 (page 59) : importations par groupe d'utilisation en valeur (millions FCFA), 2021 à 2025."
+  },
+  {
+    "fichier": "01_ANSD/commerce_exterieur/ANSD_NACE_2021.pdf",
+    "variables": [
+      "imp_conso"
+    ],
+    "source": "ANSD, statistiques du commerce extérieur",
+    "titre": "Note d'analyse du commerce extérieur (NACE), édition 2021",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2023-01/NACE_2021_VERSION_FINALE-30122022-rev.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/note-danalyse-du-commerce-exterieur-nace",
+    "periode_couverte": "2017 à 2021 (annuel)",
+    "description": "Note annuelle du commerce extérieur.",
+    "remarques": "Tableau 18 (page 55) : importations par groupe d'utilisation en valeur (millions FCFA), 2017 à 2021."
+  },
+  {
+    "fichier": "01_ANSD/chiffre_affaires/ANSD_BMSEF_bulletin_2025-12.pdf",
+    "variables": [
+      "ica_com_mod"
+    ],
+    "source": "ANSD, statistiques d'entreprises et conjoncture",
+    "titre": "Bulletin mensuel des statistiques économiques et financières, décembre 2025",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-04/BULLETIN_DECEMBRE_2025_VF.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-economiques-et-financieres",
+    "periode_couverte": "ICAC : 2024M11 et 2025M8 à 2025M11 (décembre 2025 non disponible dans ce numéro)",
+    "description": "Bulletin mensuel de conjoncture de l'ANSD. Contient l'indice du chiffre d'affaires du commerce (ICAC), base 100 en 2022, global et par sous branche.",
+    "remarques": "Tableau III.1-1 (page 35) : 'INDICE DU CHIFFRE D'AFFAIRES DU COMMERCE' et sous indices (automobile, gros, détail). Source primaire indiquée : MEPC/DPEE. Indice du commerce global, sans distinction commerce moderne ou traditionnel. Chaque bulletin ne donne que 5 mois ; pas de série longue en Excel à l'ANSD."
+  },
+  {
+    "fichier": "01_ANSD/chiffre_affaires/ANSD_ICAS_series.xlsx",
+    "variables": [
+      "ica_com_mod"
+    ],
+    "source": "ANSD, statistiques d'entreprises et conjoncture",
+    "titre": "Indices du chiffre d'affaires dans les services (ICAS) : séries",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-04/ICAS.xlsx",
+    "url_page": "https://www.ansd.sn/Indicateur/indices-du-chiffre-daffaires-dans-les-services-icas",
+    "periode_couverte": "2016T1 à 2025T4 (trimestriel)",
+    "description": "Indices trimestriels du chiffre d'affaires des services marchands (hébergement et restauration, services de soutien, immobilier, services spécialisés, transports).",
+    "remarques": "Ne couvre pas le commerce ; substitut partiel côté services."
+  },
+  {
+    "fichier": "01_ANSD/chiffre_affaires/ANSD_ICAI_series.xlsx",
+    "variables": [
+      "ica_com_mod"
+    ],
+    "source": "ANSD, statistiques d'entreprises et conjoncture",
+    "titre": "Indices du chiffre d'affaires dans l'industrie (ICAI) : séries",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-04/ICAI.xlsx",
+    "url_page": "https://www.ansd.sn/Indicateur/indices-du-chiffre-daffaires-dans-lindustrie-icai",
+    "periode_couverte": "2016T1 à 2025T4 (trimestriel)",
+    "description": "Indices trimestriels du chiffre d'affaires de l'industrie par branche.",
+    "remarques": "Substitut côté industrie."
+  },
+  {
+    "fichier": "01_ANSD/chiffre_affaires/ANSD_ICAS_ICAI_trimestriel_long.csv",
+    "variables": [
+      "ica_com_mod"
+    ],
+    "source": "ANSD, statistiques d'entreprises et conjoncture",
+    "titre": "Extraction CSV (format long) des ICAS et ICAI",
+    "url_fichier": null,
+    "url_page": "https://www.ansd.sn/Indicateur/indices-du-chiffre-daffaires-dans-les-services-icas",
+    "periode_couverte": "2016T1 à 2025T4",
+    "description": "Fichier dérivé construit localement par extraction automatique (non diffusé tel quel par l'ANSD) ; url_fichier pointe vers le fichier ANSD d'origine. Conversion des deux fichiers Excel (ICAS.xlsx et ICAI.xlsx).",
+    "remarques": "url_fichier nul car deux fichiers sources."
+  },
+  {
+    "fichier": "01_ANSD/chiffre_affaires/ANSD_ICAS_T4_2025.pdf",
+    "variables": [
+      "ica_com_mod"
+    ],
+    "source": "ANSD, statistiques d'entreprises et conjoncture",
+    "titre": "Indices du chiffre d'affaires dans les services, quatrième trimestre 2025",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-03/ICA%20services%20T4-2025.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/indices-du-chiffre-daffaires-dans-les-services-icas",
+    "periode_couverte": "2025T4",
+    "description": "Note trimestrielle ICAS.",
+    "remarques": ""
+  },
+  {
+    "fichier": "01_ANSD/chiffre_affaires/ANSD_NEER_T4_2025.pdf",
+    "variables": [
+      "ica_com_mod",
+      "pib_trim"
+    ],
+    "source": "ANSD, statistiques d'entreprises et conjoncture",
+    "titre": "Note sur les évolutions économiques récentes (NEER), quatrième trimestre 2025",
+    "url_fichier": "https://www.ansd.sn/sites/default/files/2026-05/NEER-T4-2025_vf.pdf",
+    "url_page": "https://www.ansd.sn/Indicateur/note-sur-les-evolutions-economiques-recentes-neer",
+    "periode_couverte": "2025T4",
+    "description": "Synthèse trimestrielle : PIB, production industrielle, chiffre d'affaires de l'industrie et des services, prix, commerce extérieur.",
+    "remarques": "Partie III : chiffre d'affaires industrie et services uniquement, pas de commerce."
+  },
+  {
+    "fichier": null,
+    "variables": [
+      "ca_inf"
+    ],
+    "source": "ANSD",
+    "titre": null,
+    "url_fichier": null,
+    "url_page": null,
+    "periode_couverte": null,
+    "description": "Variable non trouvée (ou seulement partiellement) sous forme de série publiée par l'ANSD.",
+    "remarques": "Chiffre d'affaires informel publié seulement pour 2017 (ERI-ESI, Tableau 12.5). Aucune série 2018 à 2025 : les comptes nationaux ne publient ni CA ni production de l'informel. L'enquête ENSIS (secteur informel non agricole, utilisée pour le rebasage 2021) est citée dans la note base 2021 mais aucun rapport ENSIS n'a été trouvé sur ansd.sn."
+  },
+  {
+    "fichier": null,
+    "variables": [
+      "prod_inf"
+    ],
+    "source": "ANSD",
+    "titre": null,
+    "url_fichier": null,
+    "url_page": null,
+    "periode_couverte": null,
+    "description": "Variable non trouvée (ou seulement partiellement) sous forme de série publiée par l'ANSD.",
+    "remarques": "Production informelle : seulement 2017 (ERI-ESI). Pas de série dans les comptes nationaux publiés."
+  },
+  {
+    "fichier": null,
+    "variables": [
+      "va_inf"
+    ],
+    "source": "ANSD",
+    "titre": null,
+    "url_fichier": null,
+    "url_page": null,
+    "periode_couverte": null,
+    "description": "Variable non trouvée (ou seulement partiellement) sous forme de série publiée par l'ANSD.",
+    "remarques": "VA informelle : 2017 (ERI-ESI, enquête) et 2021 (note base 2021, Tableau 1, en base 2014 et en base 2021). Pas de série annuelle publiée pour les autres années. Meilleurs proxies : VA des ménages S.14 (2021 à 2024, base 2021) et revenu mixte des ménages (2014 à 2022, base 2014)."
+  },
+  {
+    "fichier": null,
+    "variables": [
+      "rm_inf"
+    ],
+    "source": "ANSD",
+    "titre": null,
+    "url_fichier": null,
+    "url_page": null,
+    "periode_couverte": null,
+    "description": "Variable non trouvée (ou seulement partiellement) sous forme de série publiée par l'ANSD.",
+    "remarques": "Revenu mixte informel : seulement 2017 (ERI-ESI). Proxy : rm_men (revenu mixte des ménages, comptes des secteurs institutionnels base 2014, 2014 à 2022)."
+  },
+  {
+    "fichier": null,
+    "variables": [
+      "ca_inf_br"
+    ],
+    "source": "ANSD",
+    "titre": null,
+    "url_fichier": null,
+    "url_page": null,
+    "periode_couverte": null,
+    "description": "Variable non trouvée (ou seulement partiellement) sous forme de série publiée par l'ANSD.",
+    "remarques": "CA informel par branche : seulement 2017 (ERI-ESI, Tableaux 12.5 et 12.9)."
+  },
+  {
+    "fichier": null,
+    "variables": [
+      "va_inf_br"
+    ],
+    "source": "ANSD",
+    "titre": null,
+    "url_fichier": null,
+    "url_page": null,
+    "periode_couverte": null,
+    "description": "Variable non trouvée (ou seulement partiellement) sous forme de série publiée par l'ANSD.",
+    "remarques": "VA informelle par branche : seulement 2017 (ERI-ESI). Les comptes nationaux publient la VA par branche toutes unités confondues, sans séparation formel / informel."
+  },
+  {
+    "fichier": null,
+    "variables": [
+      "rm_men"
+    ],
+    "source": "ANSD",
+    "titre": null,
+    "url_fichier": null,
+    "url_page": null,
+    "periode_couverte": null,
+    "description": "Variable non trouvée (ou seulement partiellement) sous forme de série publiée par l'ANSD.",
+    "remarques": "Revenu mixte des ménages en base 2021 non publié : les tableaux base 2021 ne donnent que l'agrégat EBE et revenu mixte (B.2/B.3) de l'ensemble de l'économie. Série disponible seulement en base 2014, 2014 à 2022 ; 2023 à 2025 manquants."
+  },
+  {
+    "fichier": null,
+    "variables": [
+      "enes_emp_inf"
+    ],
+    "source": "ANSD",
+    "titre": null,
+    "url_fichier": null,
+    "url_page": null,
+    "periode_couverte": null,
+    "description": "Variable non trouvée (ou seulement partiellement) sous forme de série publiée par l'ANSD.",
+    "remarques": "Les notes trimestrielles ENES (2017 à 2026) ne publient pas le nombre d'actifs occupés dans l'informel. Seule valeur ANSD trouvée : ERI-ESI 2017. Trimestres ENES absents du site : 2020T1 à 2020T3 (période Covid). Pistes : microdonnées ENES sur anads.ansd.sn (inscription requise) ou ILOSTAT."
+  },
+  {
+    "fichier": null,
+    "variables": [
+      "enes_tx_inf"
+    ],
+    "source": "ANSD",
+    "titre": null,
+    "url_fichier": null,
+    "url_page": null,
+    "periode_couverte": null,
+    "description": "Variable non trouvée (ou seulement partiellement) sous forme de série publiée par l'ANSD.",
+    "remarques": "Taux d'emploi informel non publié dans les notes ENES ni dans les chapitres emploi des SES. Seule valeur ANSD : 96,4% (95,4% hors agriculture) en 2017, ERI-ESI, section 5.4."
+  },
+  {
+    "fichier": null,
+    "variables": [
+      "ica_com_mod"
+    ],
+    "source": "ANSD",
+    "titre": null,
+    "url_fichier": null,
+    "url_page": null,
+    "periode_couverte": null,
+    "description": "Variable non trouvée (ou seulement partiellement) sous forme de série publiée par l'ANSD.",
+    "remarques": "Aucun indice du chiffre d'affaires du commerce moderne à l'ANSD. L'indice du chiffre d'affaires du commerce (ICAC, base 100 en 2022, source MEPC/DPEE) figure seulement dans les bulletins mensuels BMSEF (5 mois par numéro, environ 10 Mo chacun) ; un seul numéro a été téléchargé. Pour la série complète : DPEE (Ministère de l'Economie) ou téléchargement de tous les BMSEF depuis https://www.ansd.sn/Indicateur/bulletin-mensuel-des-statistiques-economiques-et-financieres."
+  },
+  {
+    "fichier": null,
+    "variables": [
+      "defl_va_com"
+    ],
+    "source": "ANSD",
+    "titre": null,
+    "url_fichier": null,
+    "url_page": null,
+    "periode_couverte": null,
+    "description": "Variable non trouvée (ou seulement partiellement) sous forme de série publiée par l'ANSD.",
+    "remarques": "Déflateur de la VA du commerce non publié tel quel sur 2014 à 2025 : calculé (courant / volume) dans ANSD_CN_annuel_variables_cles.csv. Indices de prix des VA base 2021 publiés pour 2014 à 2021 seulement (fichier rétropolé, feuille Valeur ajoutée)."
+  }
+]
