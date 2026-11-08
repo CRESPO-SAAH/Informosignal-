@@ -40,11 +40,19 @@ Assistant IA (API Groq, *function calling*) qui permet d'interroger la plateform
 * de naviguer dans l'application ;
 * de lire les valeurs de la production (série calée), de la valeur ajoutée et du revenu mixte.
 
-La clé API est lue dans la variable d'environnement `GROQ\_API\_KEY`, définie dans `app/.Renviron`. Il s'agit d'une clé dédiée à l'évaluation. Si elle est absente, révoquée ou si le quota est épuisé, seul l'assistant est indisponible. Pour utiliser sa propre clé, modifier `app/.Renviron` :
+La clé API est lue dans la variable d'environnement `GROQ_API_KEY`, définie dans le fichier `app/.Renviron`. Pour des raisons de sécurité, ce fichier **n'est pas inclus dans le dépôt** (il est listé dans `.gitignore`). Si la clé est absente, révoquée ou si le quota est épuisé, seul l'assistant est indisponible ; le reste de l'application fonctionne normalement.
+
+Pour activer l'assistant :
+
+1. Créer une clé gratuite sur [console.groq.com](https://console.groq.com/keys).
+2. Copier le fichier `app/.Renviron.example` et renommer la copie en `app/.Renviron`.
+3. Y remplacer `votre_cle_ici` par sa clé :
 
 ```
-GROQ\_API\_KEY=votre\_cle
+GROQ_API_KEY=votre_cle_ici
 ```
+
+4. Redémarrer la session R.
 ## Reproductibilité
 Ouvrir `informosignal.Rproj` dans Rstudio, puis dans la console R, tapez : 
 
@@ -89,7 +97,7 @@ r
 rsconnect::setAccountInfo(name   = "nom_de_votre_compte",
                           token  = "TOKEN",
                           secret = "SECRET")
-Vérifier que app/.Renviron contient la clé (GROQ_API_KEY=...). Sur shinyapps.io, ce fichier est envoyé avec l'application.
+Vérifier que app/.Renviron existe en local et contient la clé (GROQ_API_KEY=..., voir la section INFORMO AI). Sur shinyapps.io, ce fichier est envoyé avec l'application.
 Depuis la racine du projet, déployer en remplaçant nom_de_votre_compte par son propre compte :
 r
 rsconnect::deployApp(appDir  = "app",
